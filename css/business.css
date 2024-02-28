@@ -1,0 +1,11 @@
+@charset "utf-8";
+.header_banner{background:url(../img/company_bg.png) center center}
+section.thumb img{float:left;margin-right:20px;box-sizing:border-box}
+section.thumb img:last-child{margin-right:0}
+section.table{text-align:center;margin-top:50px;font-size:15px;color:#363636}
+section.table tr{height:54px;border-bottom:1px solid #e0e0e0}
+section.table tr:first-child th{border-top:2px solid #353b91;border-bottom:1px solid #353b91;font-weight:500}
+section.table tr:last-child{border-bottom:1px solid #353b91}
+section.table th.first,section.table td.first{width:240px;background-color:#fafafa}
+section.table th.second,section.table th.third{width:380px}
+section.table tr td{padding:20px 0}

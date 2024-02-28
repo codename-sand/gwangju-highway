@@ -1,0 +1,10 @@
+@charset "utf-8";
+.header_banner{background:url(../img/roadinfo_bg.png) center center}
+.content1{margin-bottom:80px}
+.content1 .table_style{margin-bottom:10px}
+.content1 .table_style tr th.bg_light{width:24%}
+.content1 .table_style tr th.area2{width:38%}
+.content1 .table_style tr th.area3{width:38%}
+.content2 h5.content_title{border-bottom:2px solid #353b91;margin-bottom:30px}
+.content2 table tr{margin-bottom:25px;display:block}
+.content2 table tr td.number{width:15px;vertical-align:top}

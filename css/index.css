@@ -1,0 +1,50 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/earlyaccess/notosanskr.css";
+.mainbanner{background:center center url(../img/mainbg.png);height:612px}
+input::-webkit-input-placeholder{color:#fff;font-size:14px;font-weight:300}
+input:-ms-input-placeholder{color:#fff;font-size:14px;font-weight:300}
+input::-moz-placeholder{color:#fff;font-size:14px;font-weight:300}
+article .news{width:301px;height:600px;padding-top:38px;padding-left:20px;padding-right:20px;float:left}
+article .news .btn{width:260px;height:22px;display:block;margin-top:-26px;margin-bottom:30px;background-image:url(../img/more_btn.png)}
+article .news .newsimg{width:260px;height:150px}
+article .news .news_text_line .news_title{margin-top:17px;font-weight:300;width:260px;height:48px;margin-bottom:8px;line-height:24px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;word-wrap:break-word;overflow:hidden;text-overflow:ellipsis}
+article .news .news_text_line .news_date{font-size:14px;font-weight:300;padding-bottom:16px;border-bottom:1px solid #ededed}
+article .news .news_text_line .news_date:nth-child(2){border-bottom:none!important}
+article .traffic_info,article .cctv,article .charge{float:left;width:300px;height:301px;margin-left:-1px;padding-top:38px;padding-left:20px;padding-right:20px}
+article .fee_notice{float:left;width:300px;height:300px;margin-top:-1px;margin-left:-1px;padding-top:38px;padding-left:20px;padding-right:20px}
+article .slide_banner{float:left;width:300px;height:300px;margin-top:-1px;margin-left:-1px;position:relative;overflow:hidden}
+.slide_banner ul{position:absolute;margin:0;padding:0;width:300px;height:300px;background:url(../img/1.png) no-repeat center center;background-size:cover}
+.slide_banner ul li a{float:left;width:300px;height:300px;background:no-repeat center center;background-size:cover}
+article .slide_banner ul li h3{margin:180px 0 8px 20px}
+.slide_banner .contents_sub_text{margin-left:20px}
+article .traffic_info{background-image:url(../img/sourcebg01.png)}
+article .traffic_info .btn,article .cctv .btn,article .charge .btn,article .fee_notice .btn,article .tour_list .btn{width:260px;height:22px;display:block;margin-top:-26px;margin-bottom:30px}
+article .traffic_info .btn,article .cctv .btn,article .fee_notice .btn{width:260px;height:22px;display:block;margin-top:-26px;margin-bottom:30px;background-image:url(../img/more_arrow_btn.png)}
+article .traffic_info .contents_sub_text,article .cctv .contents_sub_text,article .fee_notice .contents_sub_text,article .charge .contents_sub_text{font-size:15px;font-weight:300}
+article .cctv{background-image:url(../img/sourcebg02.png)}
+article .charge .btn{background-image:url(../img/more_arrow_w_btn.png)}
+article .charge .searchbar{position:relative;margin-top:35px;width:260px;height:45px}
+article .charge .searchbar .searchnum{position:relative;float:left;width:260px;height:45px;border-radius:5px;background-color:rgba(255,255,255,0.3);border:1px solid rgba(255,255,255,0.6);font-size:15px;font-weight:300;color:#fff;padding-left:15px}
+article .charge .searchbar .search_btn{position:absolute;margin-left:-40px;width:40px;height:45px;background-image:url(../img/search_icon.png);background-color:transparent;cursor:pointer}
+article .charge .sub_text{margin-top:25px;font-size:14px;font-weight:400;text-align:center}
+article .fee_notice{background-image:url(../img/sourcebg03.png)}
+article .favorite_menu,article .tour_list{float:left;width:600px;height:300px;margin-top:-1px;margin-left:-1px;padding-top:38px;padding-left:20px;padding-right:20px}
+article .favorite_menu .menu{width:125px;float:left;margin-right:19px}
+article .favorite_menu .menu:nth-child(5){margin-right:0}
+article .favorite_menu .menu .icon{width:125px;height:125px;display:block;margin-top:25px}
+article .favorite_menu .menu .menutext{font-weight:400;width:125px;margin-top:15px;text-align:center}
+article .weather{text-align:center;margin-top:-1px;float:left;width:301px;height:300px;padding-top:38px}
+article .weather img{margin-top:13px}
+article .weather .loc{width:300px;height:24px;padding-left:30px;padding-right:30px;margin-top:10px;margin-bottom:13px}
+article .weather .loc .region{text-align:right;font-weight:300;float:left;width:120px;height:22px;line-height:22px;padding-right:10px;background-image:url(../img/regionbg.png)}
+article .weather .loc .temperature{width:50px;height:22px;line-height:22px;float:left;padding-left:10px}
+article .weather .weather_info{background-color:#13719b;width:148px;height:72px;margin-left:1px;float:left;padding:8px}
+article .weather .weather_info .info_title{font-weight:500;font-size:15px}
+article .weather .weather_info .temperature_value{font-size:24px;color:#00fff0;font-weight:600}
+article .tour_list .subtext{font-size:15px;font-weight:400;margin-left:10px}
+article .tour_list .btn{float:right;background-image:url(../img/more_btn.png)}
+article .tour_list .contentslist{width:560px;height:190px;float:left}
+article .tour_list .contentslist .tour_contents{width:172px;height:190px;float:left;margin-right:14px}
+article .tour_list .contentslist .tour_contents img{width:172px;height:130px;margin-bottom:5px;float:left}
+article .tour_list .contentslist .tour_contents .tour_title{font-size:15px;font-weight:500;margin-bottom:4px;float:left;width:172px;height:20px;line-height:20px}
+article .tour_list .contentslist .tour_contents .loc{font-size:12px;width:172px;font-weight:300;height:16px;background-image:url(../img/location.png);padding-left:14px;line-height:16px}

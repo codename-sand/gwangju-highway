@@ -1,0 +1,28 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/earlyaccess/notosanskr.css";
+header{position:fixed;width:100%;z-index:999}
+header hr{border-width:1px 0 0!important;border:1px solid rgba(255,255,255,0.5);position:relative;top:100px}
+header .header_width{width:1520px;margin:0 auto}
+header .home_logo{width:200px;height:100px;float:left;margin-right:130px;margin-left:10px}
+header .home_logo a{display:block;background:red;width:100%;height:100%;background:url(../img/logo.png) no-repeat}
+header .main_header{float:left;margin-left:80px}
+header .main_header > li{width:120px;text-align:center;line-height:100px;float:left}
+header .main_header > li:hover > a{border-bottom:2px solid #353b91;position:relative;z-index:10}
+.main_header > li > a{font-size:18px;color:#fff;padding-bottom:35px;font-weight:500}
+.main_header li ul{display:none;padding-top:25px;height:225px;width:120px;float:left;line-height:40px;background-image:url(../img/gnb_line.png)}
+.main_header li:last-child ul{background:none}
+.main_header li ul li a{font-size:15px;color:#6b6b6b}
+.main_header li ul li a:hover{color:#353b91}
+.account{float:right;margin-right:10px}
+header .account li{float:left;text-align:center;height:100px;line-height:100px;margin-right:10px}
+.account li a{font-size:14px;font-weight:300;color:#fff}
+.account li a img{float:left;margin-top:43px;margin-right:5px}
+.account li.login_btn{padding-left:20px;background:url(../img/ac_lock.png) no-repeat left center}
+header.hd_hover{background-color:#fff!important}
+header.hd_hover .home_logo a{display:block;background:red;width:100%;height:100%;background:url(../img/logo_after.png) no-repeat}
+header.hd_hover .main_header > li > a,header.hd_hover .account > li > a{color:#363636!important}
+header.hd_hover .account li.login_btn{padding-left:20px;background:url(../img/ac_lock_after.png) no-repeat left center}
+header.scroll{background-color:#fff!important;box-shadow:1px 0 3px #4c4c4c}
+header.scroll .home_logo a{display:block;background:red;width:100%;height:100%;background:url(../img/logo_after.png) no-repeat}
+header.scroll .main_header > li > a,header.scroll .account > li > a{color:#363636!important}
+header.scroll .account li.login_btn{padding-left:20px;background:url(../img/ac_lock_after.png) no-repeat left center}

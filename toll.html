@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>광주제2순환도로 1~3구간</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/toll.css">
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script type="text/javascript" src="js/footer.js"></script>
+	<script type="text/javascript" src="js/header.js"></script>
+	<script src="js/tab.js"></script>
+</head>
+<body>
+	<header class="cf">
+		<hr>
+		<div class="header_width cf">
+			<h1 class="home_logo">
+				<a href="index.html"></a>
+			</h1>
+			<ul class="main_header cf">
+				<li>
+					<a href="#">도로이용정보</a>
+					<ul class="area cf">
+						<li><a href="route.html">노선도</a></li>
+						<li><a href="toll.html">통행료</a></li>
+						<li><a href="limit.html">제한 차량 안내</a></li>
+						<li><a href="hipass.html">하이패스 안내</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">미납통행료</a>
+					<ul class="area cf">
+						<li><a href="search.html">미납요금조회</a></li>
+						<li><a href="payfor.html">납부방법안내</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">고객광장</a>
+					<ul class="area">
+						<li><a href="notice.html">공지사항</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="qa.html">Q＆A</a></li>
+						<li><a href="tax.html">세금계산서 안내</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">홍보자료</a>
+					<ul class="area">
+						<li><a href="public.html">사회 공헌 활동</a></li>
+						<li><a href="news.html">보도자료</a></li>
+						<li><a href="photo.html">포토 갤러리</a></li>
+						<li><a href="tour.html">주변 관광지</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">회사소개</a>
+					<ul class="area">
+						<li><a href="intro.html">인사말</a></li>
+						<li><a href="business.html">사업개요</a></li>
+						<li><a href="chart.html">조직도</a></li>
+						<li><a href="map.html">찾아오시는 길</a></li>
+					</ul>
+				</li>
+			</ul>
+			
+			<ul class="account">
+				<li class="login_btn"><a href="login.html">로그인</a></li>
+				<li><a href="agree.html">회원가입</a></li>
+				<li><a href="find.html">ID / PW찾기</a></li>
+			</ul>
+		</div>
+	</header>
+	
+	<div class="header_banner">
+		<img src="img/roadinfo_icon.png" alt="icon" class="titleicon">
+		<p class="sub_title_text">도로이용정보</p>
+		<h4 class="sub_text">노선도안내 · 통행료안내 · 제한차량안내 · 하이패스안내</h4>
+	</div>
+
+	<div class="lnb mg cf">
+		<ul class="cf">
+			<li class="img_li"><img src="img/lnb_home.png" alt="lnb_arrow"></li>
+			<li><a href="">홈</a></li>
+			<li class="img_li"><img src="img/lnb_arrow.png" alt="lnb_arrow"></li>
+			<li><a href="">도로이용정보</a></li>
+			<li class="img_li"><img src="img/lnb_arrow.png" alt="lnb_arrow"></li>
+			<li class="point"><a href="toll.html">통행료안내</a></li>
+		</ul>
+	</div>
+
+	<h1 class="category_title">통행료안내</h1>
+	<p class="category_ment">광주 제 2순환도로의 통행료는 민간투자법에 의하여 30년 또는 28년 동안의 운영기간 동안에<br>건설비와 운영비를 회수하는 수준에서 결정되었습니다.</p>
+
+	<div class="tab_button cf">
+		<div class="btn border_light_gray active">1구간<span>(두암IC~지원IC)</span></div>
+		<div class="btn border_light_gray">3구간<span>(지원IC~서창IC)</span></div>
+	</div>
+
+	<div class="mg cont cf">
+		<!-- first_contents -->
+		<div class="contents">
+			<div class="content1">
+				<h5 class="content_title">1구간(두암IC~지원IC) 통행요금표</h5>
+
+				<table class="table_style">
+					<tr>
+						<th class="bg_light">차종</th>
+						<th class="area2">분류기준</th>
+						<th class="area3">금액<span>(단위:원)</span></th>
+					</tr>
+
+					<tr>
+						<td class="bg_light">경차</td>
+						<td>배기량 1,000cc 미만<br>
+						(길이 3.6m, 너비 1.6m, 높이 2.0m 이하)</td>
+						<td>600</td>
+					</tr>
+
+					<tr>
+						<td class="bg_light">소형</td>
+						<td>2축 차량 중<br>윤폭 279.4mm 이하<br>윤거 1,800mm 이하</td>
+						<td>1,200</td>
+					</tr>
+
+					<tr>
+						<td class="bg_light">중형</td>
+						<td>2축 차량 중<br>윤폭 279.4mm 초과<br>윤거 1,800mm 초과</td>
+						<td>2,300</td>
+					</tr>
+
+					<tr>
+						<td class="bg_light">대형</td>
+						<td>3축 이상 차량</td>
+						<td>2,900</td>
+					</tr>
+				</table>
+
+				<p>※ 지원IC ~ 학운IC 구간은 위 통행요금의 50%</p>
+			</div>
+			<!-- <div class="content2">
+				<h5 class="content_title">세금계산서가 필요하신 사업체(개인승용차 제외)에서는</h5>
+
+				<table>
+					<tr>
+						<td class="number"><p>1.</p></td>
+						<td><p>신청기간 : 매월 그 다음달 7일 오후 6시까지 영업소에 신청(우편신청은 7일 도착분에 한함)</p></td>
+					</tr>
+
+					<tr>
+						<td class="number"><p>2.</p></td>
+						<td>
+							<p>제출서류 : </p>
+							<p>가. 사업자등록증 사본(전화번호, 핸드폰번호, E-Mail 반드시 기재)</p>
+							<p>나. 소태영업소와 송암영업소 발급분 영수증을 구분하여(공급사업자가 다름), 차종금액별 구분하여 붙이고, 총금액을 계산하여 신청.</p>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="number"><p>3.</p></td>
+						<td><p>발급제외 : 발급대상 월이 경과한영수증(부가가치세법 제9조, 제16조)[세금계산서는 매월 발급받으셔야 합니다.</p></td>
+					</tr>
+
+					<tr>
+						<td class="number"><p>4.</p></td>
+						<td>
+							<p>기타 안내사항</p>
+							<p>국세청의 부가세법에 의거 법인사업자는 전자세금계산서를 의무 발행 전송하여야 하며 세금계산서 수취는 이메일로만 가능합니다.</p>
+							<p>통행료 영수증 자체로도 경비 증빙처리가 가능하며, 부가세 신고시 매입부가세를 환급 받기 위한 사업자만 세금계산서를 요청하여 발급 받으실 수 있습니다.</p>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="number"><p>5.</p></td>
+						<td><p>문의전화 : 광주제2순환도로 송암영업소(전화 062-670-7114) </p></td>
+					</tr>
+				</table>
+
+				<p class="red">※ 통행료는 조세특례제한법 제 106조 및 동법시행령 제 106조에 의해 현금영수증 발행대상이 아닙니다.</p>
+			</div> -->
+		</div>
+		<!-- second_contents -->
+		<div class="contents">
+			<div class="content1">
+				<h5 class="content_title">3구간(지원IC~서창IC) 통행요금표</h5>
+
+				<table class="table_style">
+					<tr>
+						<th class="bg_light">차종</th>
+						<th class="area2">분류기준</th>
+						<th class="area3">금액<span>(단위:원)</span></th>
+					</tr>
+
+					<tr>
+						<td class="bg_light">경차</td>
+						<td>배기량 1,000cc 미만<br>
+						(길이 3.6m, 너비 1.6m, 높이 2.0m 이하)</td>
+						<td>600</td>
+					</tr>
+
+					<tr>
+						<td class="bg_light">소형</td>
+						<td>2축 차량 중<br>윤폭 279.4mm 이하<br>윤거 1,800mm 이하</td>
+						<td>1,200</td>
+					</tr>
+
+					<tr>
+						<td class="bg_light">중형</td>
+						<td>2축 차량 중<br>윤폭 279.4mm 초과<br>윤거 1,800mm 초과</td>
+						<td>2,300</td>
+					</tr>
+
+					<tr>
+						<td class="bg_light">대형</td>
+						<td>3축 이상 차량</td>
+						<td>2,900</td>
+					</tr>
+				</table>
+
+			</div>
+			<!-- <div class="content2">
+				<h5 class="content_title">세금계산서가 필요하신 사업체(개인승용차 제외)에서는</h5>
+
+				<table>
+					<tr>
+						<td class="number"><p>1.</p></td>
+						<td><p>신청기간 : 매월 그 다음달 7일 오후 6시까지 영업소에 신청(우편신청은 7일 도착분에 한함)</p></td>
+					</tr>
+
+					<tr>
+						<td class="number"><p>2.</p></td>
+						<td>
+							<p>제출서류 : </p>
+							<p>가. 사업자등록증 사본(전화번호, 핸드폰번호, E-Mail 반드시 기재)</p>
+							<p>나. 소태영업소와 송암영업소 발급분 영수증을 구분하여(공급사업자가 다름), 차종금액별 구분하여 붙이고, 총금액을 계산하여 신청.</p>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="number"><p>3.</p></td>
+						<td><p>발급제외 : 발급대상 월이 경과한영수증(부가가치세법 제9조, 제16조)[세금계산서는 매월 발급받으셔야 합니다.</p></td>
+					</tr>
+
+					<tr>
+						<td class="number"><p>4.</p></td>
+						<td>
+							<p>기타 안내사항</p>
+							<p>국세청의 부가세법에 의거 법인사업자는 전자세금계산서를 의무 발행 전송하여야 하며 세금계산서 수취는 이메일로만 가능합니다.</p>
+							<p>통행료 영수증 자체로도 경비 증빙처리가 가능하며, 부가세 신고시 매입부가세를 환급 받기 위한 사업자만 세금계산서를 요청하여 발급 받으실 수 있습니다.</p>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="number"><p>5.</p></td>
+						<td><p>문의전화 : 광주제2순환도로 송암영업소(전화 062-670-7114) </p></td>
+					</tr>
+				</table>
+
+				<p class="red">※ 통행료는 조세특례제한법 제 106조 및 동법시행령 제 106조에 의해 현금영수증 발행대상이 아닙니다.</p>
+			</div> -->
+		</div>
+		
+		
+	</div>
+
+	<footer class="cf">
+		<hr>
+		<div class="footer_width">
+			<ul class="logo_line">
+				<li><a href="#">서비스이용약관</a></li>
+				<li><a href="#" class="green">개인정보취급방침</a></li>
+				<li><a href="#">영상 정보기기 운영·관리방침</a></li>
+				<li class="logo_img"><a href="#"><img src="img/source05.png" alt=""></a></li>
+				<li><a href="#"><img src="img/source06.png" alt=""></a></li>
+				<li><a href="#"><img src="img/source07.png" alt=""></a></li>
+				<li><a href="#"><img src="img/source08.png" alt=""></a></li>
+			</ul>
+		</div>
+		<hr>
+		<div class="footer_width">
+			<img class="home_logo" src="img/home_logo.png"></img>
+			<div class="address">
+				<p class="deep_gray">광주광역시 남구 2순환로 1508(송하동) 광주제2순환도로 송암영업소</p>
+				<ul class="deep_gray">
+					<li>E-mail : www.kjrr.co.kr</li>
+					<li><img src="img/bottom_line.png" alt=""></li>
+					<li>Tel : 062-220-8830</li>
+					<li><img src="img/bottom_line.png" alt=""></li>
+					<li>Fax : 062-234-6353</li>
+				</ul>
+			</div>
+			<div class="linkweb">
+				<div class="footer_select">
+					<a class="click_openlink">관련사이트 바로가기</a>
+					<ul class="hide_openlink">
+						<li><a href="http://www.molit.go.kr/portal.do" class="deep_gray" target="_blank">국토해양부</a></li>
+						<li><a href="http://irocm.molit.go.kr/intro.do#mltm" class="deep_gray" target="_blank">인산지방국토관리청</a></li>
+						<li><a href="https://www.gwangju.go.kr/" class="deep_gray" target="_blank">광주광역시청</a></li>
+						<li><a href="http://www.donggu.kr/index.es?sid=a1" class="deep_gray" target="_blank">광주광역시동구청</a></li>
+						<li><a href="http://www.seogu.gwangju.kr/" class="deep_gray" target="_blank">광주광역시서구청</a></li>
+						<li><a href="http://www.namgu.gwangju.kr/" class="deep_gray" target="_blank">광구광역시남구청</a></li>
+						<li><a href="http://www.bukgu.gwangju.kr/index.es?sid=a1" class="deep_gray" target="_blank">광구광역시북구청</a></li>
+						<li><a href="http://www.gwangsan.go.kr/" class="deep_gray" target="_blank">광주광역시광산구청</a></li>
+						<li><a href="https://www.gjpolice.go.kr/" class="deep_gray" target="_blank">광주지방경찰청</a></li>
+						<li><a href="http://www.ex.co.kr/" class="deep_gray" target="_blank">한국도로공사</a></li>
+						<li><a href="https://www.cneway.co.kr/main.do?s=cneway" class="deep_gray" target="_blank">천안논산고속도로</a></li>
+						<li><a href="https://seoulbeltway.co.kr/main.do?s=seoulbeltway" class="deep_gray" target="_blank">서울고속도로</a></li>
+						<li><a href="http://www.hiway21.com/home/homeIndex.do" class="deep_gray" target="_blank">인천국제공항고속도로</a></li>
+						<li><a href="https://www.dbeway.co.kr/kor/Main.do" class="deep_gray" target="_blank">신대구부산고속도로</a></li>
+						<li><a href="https://www.samsungsds.com/global/ko/index.html" class="deep_gray" target="_blank">(주)삼성SDS</a></li>
+						<li><a href="http://www.sdsystem.com/" class="deep_gray" target="_blank">(주)에스디시스템</a></li>
+					</ul>
+				</div>
+				
+				<img class="bottom_logo" src="img/bottom_logo1.png">
+				<img class="bottom_logo" src="img/bottom_logo2.png">			
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

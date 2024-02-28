@@ -1,0 +1,29 @@
+@charset "utf-8";
+header hr{border:1px solid #e0e0e0}
+.fake{width:100%;height:103px;margin-bottom:80px}
+.category_title{margin-bottom:50px}
+ul.tab{text-align:center;margin-bottom:50px}
+ul.tab li{display:inline;margin-left:20px}
+ul.tab li:first-child{margin:0}
+ul.tab li a{display:inline-block;width:160px;height:48px;line-height:46px;font-size:16px;box-sizing:border-box;border-radius:24px;color:#8e8e8e}
+ul.tab li a span{font-size:14px}
+ul.tab li.active a,ul.tab li:hover a{background-color:#353b91;border-color:#353b91!important;color:#fff;font-weight:500}
+.find{box-sizing:border-box;padding:60px 0}
+.find input[type="text"]{display:block;margin:0 auto;width:400px;height:40px;box-sizing:border-box;padding-left:10px;font-family:inherit;font-size:15px}
+.find .margin{margin:20px auto 40px!important;display:none}
+.find input[type="submit"]{display:block;margin:0 auto 50px;width:400px;height:55px;color:#fff;font-family:inherit;font-size:16px;font-weight:500;cursor:pointer}
+.find .line{width:600px;height:1px;background-color:#e0e0e0;margin:0 auto 20px}
+.find p{font-size:15px;color:#363636;text-align:center}
+.verify{width:1000px;margin:0 auto}
+.verify .box{width:490px;height:385px;box-sizing:border-box;border:1px solid #e0e0e0;float:left}
+.verify .box:first-child{margin-right:20px}
+.verify .box img{display:block;margin:45px auto 20px}
+.verify .box h4{text-align:center;color:#353b91}
+.verify .box p{text-align:center;font-size:15px;color:#6b6b6b;margin:10px auto 40px}
+.verify .box a{display:block;width:180px;height:40px;background-color:#353b91;line-height:40px;text-align:center;color:#fff;margin:0 auto}
+.reset{box-sizing:border-box;padding:60px 0}
+.reset input[type="password"]{display:block;margin:0 auto;width:400px;height:40px;box-sizing:border-box;padding-left:10px;font-family:inherit;font-size:15px}
+.reset .margin{margin:20px auto 40px!important;display:none}
+.reset input[type="submit"]{display:block;margin:0 auto 50px;width:400px;height:55px;color:#fff;font-family:inherit;font-size:16px;font-weight:500;cursor:pointer}
+.reset .line{width:600px;height:1px;background-color:#e0e0e0;margin:0 auto 20px}
+.reset p{font-size:15px;color:#363636;text-align:center}

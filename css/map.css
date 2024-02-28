@@ -1,0 +1,14 @@
+@charset "utf-8";
+.header_banner{background:url(../img/company_bg.png) center center}
+article div.map{margin-bottom:60px}
+article .highway,article .nativeroad{margin-bottom:30px}
+article .highway p.text{width:1000px;height:45px;font-size:15px;line-height:43px;padding-left:20px;border-radius:4px}
+article .nativeroad p.text{width:1000px;height:70px;font-size:15px;line-height:25px;border-radius:4px;padding:10px 20px 0}
+article .list table{width:1000px;text-align:center;line-height:45px}
+article .list table tr th{border-top:2px solid #353b91;border-bottom:1px solid #353b91;height:45px;background-color:#fafafa;font-size:15px;color:#363636}
+article .list table .area01{width:112px}
+article .list table .area02{width:500px}
+article .list table .area03,article .list table .area04{width:194px}
+article .list table tr td{border-bottom:1px solid #e0e0e0;font-size:16px;font-weight:300;color:#363636}
+article .list table tr:last-child{border-bottom:1px solid #353b91}
+article .list table tr:last-child td{border-bottom:none}

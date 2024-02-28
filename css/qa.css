@@ -1,0 +1,102 @@
+@charset "utf-8"; 
+.header_banner {
+	background: url(../img/userspace_bg.png) center center; 
+}
+
+.category_ment {
+	margin-bottom: 50px;
+}
+
+/*seach*/
+.search {
+	box-sizing: border-box;
+	height: 100px;
+	margin-bottom: 60px;
+}
+
+.search .search_wrap {
+	width: 465px;
+	height: 40px;
+	margin: 29px auto 0; 
+}
+
+.search select {
+	width: 120px;
+	height: 40px;
+	float: left;
+	box-sizing: border-box;
+	color: #6b6b6b;
+	font-size: 15px;
+	font-family: inherit;
+	padding-left: 10px;
+	margin-right: 5px;
+	cursor: pointer;
+	-webkit-appearance: none; 
+	-moz-appearance: none; 
+	appearance: none; 
+	background: white url(../img/select_btn.png) no-repeat right center;
+}
+
+select::-ms-expand {display: none;}
+
+.search input[type="text"] {
+	width: 280px;
+	height: 40px;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 10px;
+	font-family: inherit;
+	font-size: 15px;
+}
+
+.search input[type="submit"] {
+	width: 60px;
+	height: 40px;
+	float: left;
+	background: #363636;
+	color: white;
+	font-family: inherit;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+
+/*table*/
+table tr th.area1 {
+	width: 80px;
+}
+
+table tr th.area3 {
+	width: 100px;
+}
+
+table tr th.area4 {
+	width: 80px;
+}
+
+
+table tr td {
+	color: #6b6b6b !important;
+}
+
+table tr td.title {
+	color: #363636 !important;
+	text-align: left;
+}
+
+table tr td.title img.secret {
+	margin-left: 10px;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+
+table tr td.title a span.purple {
+	font-weight: 600;
+	padding-left: 4px;
+}
+
+table tr td.title a:link, 
+table tr td.title a:visited{
+	color: #363636;
+	cursor: pointer;
+}

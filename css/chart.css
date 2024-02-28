@@ -1,0 +1,24 @@
+@charset "utf-8";
+.header_banner{background:url(../img/company_bg.png) center center}
+article.graph{height:480px;margin-bottom:60px;text-align:center;box-sizing:border-box;background:no-repeat url(../img/chart_bg.png) center center}
+article.graph div.content{border-radius:0 17px 0 0;width:135px;height:60px;line-height:58px;box-sizing:border-box;font-size:16px;background-color:#fff}
+article.graph div.one{margin-left:434px;margin-top:28px}
+article.graph .second_line .content{border:1px solid #37afab;color:#37afab;float:left}
+article.graph .second_line .content:first-child{margin-right:668px;margin-left:30px}
+article.graph div.two{margin-left:434px;margin-top:15px}
+article.graph .third_line .content{margin-top:70px;float:left}
+article.graph .third_line .content:first-child,article.graph .fourth_line .content:first-child{margin-right:312px;margin-left:207px}
+article.graph .fourth_line{margin-top:35px;float:left}
+article.graph .fourth_line .content{float:left}
+article.graph .fifth_line{width:380px;float:left}
+article.graph .fifth_line .content{float:left;margin:65px 0 0 30px}
+article.graph .fifth_line .content:first-child{margin-right:45px}
+article.graph .fifth_two{margin:65px 0 0 95px;float:left}
+article.graph .fifth_two .content{float:left;margin-right:44px}
+article.graph .fifth_two .content:last-child{margin-right:0}
+table.chart_table{margin:-5px 0 60px}
+table.chart_table tr td{font-size:15px;color:#363636;height:54px;width:668px;padding:15px 20px;border-bottom:1px solid #e0e0e0}
+table.chart_table tr td.bg_light{width:330px}
+table.chart_table tr.border_top{border-top:2px solid #353b91}
+table.chart_table tr.bottom_line{border-bottom:1px solid #353b91!important}
+table.chart_table tr:last-child td.border_none{border-bottom:none}

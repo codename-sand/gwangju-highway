@@ -1,0 +1,13 @@
+@charset "utf-8";
+.header_banner{background:url(../img/userspace_bg.png) center center}
+.category_ment{margin-bottom:50px}
+.list_table{border-top:2px solid #353b91;box-sizing:border-box;margin-top:40px}
+.pre_table{border-top:1px solid #e0e0e0;height:108px}
+.list_table .table_header,.pre_table .table_header{width:120px;height:54px;font-weight:400;background-color:#fafafa;box-sizing:border-box;float:left;line-height:54px;text-align:center;font-size:15px;border-bottom:1px solid #e0e0e0}
+.list_table .title,.list_table .date{width:880px;height:54px;float:left;box-sizing:border-box;padding-left:20px;line-height:54px;font-size:15px;border-bottom:1px solid #e0e0e0}
+.view p{font-weight:300;font-size:17px;padding:30px 40px;float:left;line-height:28px}
+.view img.news_img{margin:0 auto;max-width:920px;display:block;box-sizing:border-box;padding-top:30px}
+.pre_table{clear:both;margin-top:80px}
+.pre_table .title{width:880px;height:54px;float:left;box-sizing:border-box;padding-left:20px;line-height:54px;font-size:15px;border-bottom:1px solid #e0e0e0}
+a:visited{color:#202020}
+a.list_btn{float:right;margin-top:10px;width:70px;height:40px;color:#fff;font-size:15px;cursor:pointer;line-height:38px;text-align:center;box-sizing:border-box}

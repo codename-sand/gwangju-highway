@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>광주제2순환도로 1~3구간</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/faq.css">
+	
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script type="text/javascript" src="js/header.js"></script>
+	<script type="text/javascript" src="js/footer.js"></script>
+	<script type="text/javascript" src="js/faq.js"></script>
+</head>
+<body>
+	<header class="cf">
+		<hr>
+		<div class="header_width cf">
+			<h1 class="home_logo">
+				<a href="index.html"></a>
+			</h1>
+			<ul class="main_header cf">
+				<li>
+					<a href="#">도로이용정보</a>
+					<ul class="area cf">
+						<li><a href="route.html">노선도</a></li>
+						<li><a href="toll.html">통행료</a></li>
+						<li><a href="limit.html">제한 차량 안내</a></li>
+						<li><a href="hipass.html">하이패스 안내</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">미납통행료</a>
+					<ul class="area cf">
+						<li><a href="search.html">미납요금조회</a></li>
+						<li><a href="payfor.html">납부방법안내</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">고객광장</a>
+					<ul class="area">
+						<li><a href="notice.html">공지사항</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="qa.html">Q＆A</a></li>
+						<li><a href="tax.html">세금계산서 안내</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">홍보자료</a>
+					<ul class="area">
+						<li><a href="public.html">사회 공헌 활동</a></li>
+						<li><a href="news.html">보도자료</a></li>
+						<li><a href="photo.html">포토 갤러리</a></li>
+						<li><a href="tour.html">주변 관광지</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">회사소개</a>
+					<ul class="area">
+						<li><a href="intro.html">인사말</a></li>
+						<li><a href="business.html">사업개요</a></li>
+						<li><a href="chart.html">조직도</a></li>
+						<li><a href="map.html">찾아오시는 길</a></li>
+					</ul>
+				</li>
+			</ul>
+			
+			<ul class="account">
+				<li class="login_btn"><a href="login.html">로그인</a></li>
+				<li><a href="agree.html">회원가입</a></li>
+				<li><a href="find.html">ID / PW찾기</a></li>
+			</ul>
+		</div>
+	</header>
+	
+	<div class="header_banner">
+		<img src="img/userspace_icon.png" alt="icon" class="titleicon">
+		<p class="sub_title_text">고객광장</p>
+		<h4 class="sub_text">공지사항 · FAQ · Q＆A · 세금계산서 발급안내</h4>
+	</div>
+	
+	<div class="lnb mg cf">
+		<ul class="cf">
+			<li class="img_li"><img src="img/lnb_home.png" alt="lnb_arrow"></li>
+			<li><a href="index.html">홈</a></li>
+			<li class="img_li"><img src="img/lnb_arrow.png" alt="lnb_arrow"></li>
+			<li><a href="notice.html">고객광장</a></li>
+			<li class="img_li"><img src="img/lnb_arrow.png" alt="lnb_arrow"></li>
+			<li class="point"><a href="faq.html">FAQ</a></li>
+		</ul>
+	</div>
+	
+	<h1 class="category_title">FAQ</h1>
+	<p class="category_ment">고객님들께 필요한 기초적인 정보와 자주 질문되는 사항들을 확인하실 수 있습니다.</p>
+
+	<div class="search mg border_gray bg_light">
+		<div class="search_wrap">
+			<form action="">
+				<select class="border_gray">
+					<option value="">작성자</option>
+				</select>
+				<input type="text" class="border_gray" placeholder="검색어를 입력해주세요.">
+				<input type="submit" value="검색">
+			</form>
+		</div>
+	</div>
+
+	<div class="mg cf"> 
+		<div class="count">
+			<img src="img/count.png" alt="count">
+			<p>총 <span class="purple">13</span>건</p>
+		</div>
+
+		<div class="accordion cf">
+			<!-- title -->
+			<div class="ac_title bg_light">
+				<p class="num">번호</p>
+				<p class="category">질문/답변</p>
+			</div>
+			
+			<!-- accordion -->
+			<div class="ac_header">
+				<p class="num deep_gray">21</p>
+				<p class="text black">세금계산서가 익월 1일부터 10일까지만 교부되는 이유는 무엇인가요?</p>
+			</div>
+			<div class="ac_content bg_light">
+				<p class="purple">답변</p>
+				<p class="answer">
+					부가가치세법 시행령 제54조 (세금계산서의 발급특례) 의 규정에 "사업자가 다음 각호의 어느 하나에 해당하는 경우에는<br>법 제16조제1항에따라 재화 또는 용역의 공급일이 속하는 달의 다음달 10일까지 세금계산서를 발급할 수 있다.”라 하였습니다.<br>
+					따라서 저희 회사에서는 익월 1일에서 10일까지 세금계산서를 교부하고 있으니,<br>이용고객께서는 반드시 매월 7일 오후 6시까지신청하여 주시기 바랍니다.
+				</p>
+			</div>
+			
+			<div class="ac_header">
+				<p class="num deep_gray">20</p>
+				<p class="text black">전자지불, 후불, 하이패스 시스템 도입은?</p>
+			</div>
+			<div class="ac_content bg_light">
+				<p class="purple">답변</p>
+				<p class="answer">
+					▶　제2순환도로는 차량정체로 인한 수납시간 지연 등이 발생되지 않고 현재의 유인징수방식으로도
+					충분히 처리하고 있어<br>전자지불(후불포함) 및 하이패스 시스템 도입의 필요성을 느끼지 못하고 있습니다.
+					<br>
+					▶　전자 및 하이패스시스템을 도입하기 위해서는 막대한 예산이 소요되며 운영비의 증가가 되고
+					이러한 비용 또한 통행료 인상의 요인이 됩니다.
+
+ 
+				</p>
+			</div>
+			
+			<div class="ac_header">
+				<p class="num deep_gray">19</p>
+				<p class="text black">통행료는 현금으로만 납부해야 한가요?</p>
+			</div>
+			<div class="ac_content bg_light">
+				<p class="purple">답변</p>
+				<p class="answer">
+					광주제2순환도로는 유인징수시스템으로 현금수납을 원칙으로 하고 있습니다.
+				</p>
+			</div>
+			
+			<div class="ac_header">
+				<p class="num deep_gray">18</p>
+				<p class="text black">갓길이란 무엇이고, 갓길을 주행하였을 경우는 어떻게 되나요?</p>
+			</div>
+			<div class="ac_content bg_light">
+				<p class="purple">답변</p>
+				<p class="answer">
+					▶　갓길(the shoulder)이란 사전적 의미로 고속도로나 자동차 전용 도로 등의 양쪽 가장자리 부분을 말합니다.
+					<br class="margin">
+					▶　현행 도로교통법제60조 (갓길 통행금지 등) ①항은 자동차의 운전자는 고속도로등에서 자동차의
+				  	고장 등 부득이한 경우를 제외하고는<br> 행정안전부령이 정하는 차로에 따라 통행하여야 하며 갓길 통행하여서는 아니된다.<br> 다만, 긴급자동차와 고속도로등의 보수·유지 등의 작업을 하는 자동차를
+				  	운전하는 때에는 그러하지 아니하다로 규정되어 있읍니다.
+				  	<br>
+				  	▶　갓길은 고속도로나 자동차 전용도로의 유효 폭 밖의 가장자리 길을 말하는데 위급한 긴급차량의
+				    통행이나<br>고장난 차량을 위한 임시대피장소입니다. 갓길은 대통령령이 정한 긴급자동차와 구난
+				    차량만이 운행하도록 되어 있는 도로입니다.<br>그렇기 때문에 운행 중 갓길 주정차에 관련한 사항은
+				    부득이한 경우가 아니라면 이용을 피하고 ,<br>부득이 한 경우로 갓길을 이용시에는 안전삼각대를
+				    반드시 세워둬야 하겠습니다.
+				  	<br>
+				  	▶　삼각표지판은 차량 100m 후방에 세워야 하며 야간에는 200m 후방에 섬광신호를 추가로 설치해야<br>
+					미연의 사고로 부터 자신의 생명과 재산을 보호할 수 있읍니다.
+					<br>
+					▶　현행 도로교통법 제64조는 차량고장 등 부득이한 경우를 제외하고는 고속도로의 갓길 주정차를
+  					금지하고 있읍니다.<br>갓길운행시 벌점30점에 범칙금이 부과됩니다.
+				</p>
+			</div>
+			
+			<div class="ac_header">
+				<p class="num deep_gray">17</p>
+				<p class="text black">긴급전화 이용방법은 어떻게 되나요?</p>
+			</div>
+			<div class="ac_content bg_light">
+				<p class="purple">답변</p>
+				<p class="answer">
+					▶　긴급전화는 IC구간 및 터널구간 등 위험예상지역에 설치하였습니다. <br>
+					▶　긴급전화기의 이용 방법은 방식에 따라 버튼식과 무버튼 방식이 있으며 버튼식은 송수화기를 든
+					후 버튼을 누르면 벨소리가 들리며,<br>무버튼 방식은 송수화기를 들면 발신음이 들리고 다이알음이
+     				들린 후 긴급전화기 관리 접수대와 연결됩니다.<br>연결시간은 5초에서 10초정도이며 무버튼 방식의
+					긴급전화가 연결 불량일 때는 자동으로 재다이얼을 시도하므로 약 20초 정도 기다리면 됩니다.<br>
+
+					▶　사용 후에는 송수화기 거치대에 정확하게 걸어주고 보호켑을 닫아 줌으로써 긴급전화기의 고장
+					을 방지할 수 있으며,<br>급한 용무가 있는 다른 이용객이 어려움을 해결할 수 있도록 배려하는 것도 잊지 말아야 할 것입니다.
+				</p>
+			</div>
+			
+			<div class="ac_header">
+				<p class="num deep_gray">16</p>
+				<p class="text black">순환도로에 회차로가 설치되어 있는데 이용하지 못하도록 막아 놓았는지요?</p>
+			</div>
+			<div class="ac_content bg_light">
+				<p class="purple">답변</p>
+				<p class="answer">
+					▶　광주제2순환도로의 터널 시․종점부에 설치한 회차로는 도로이용객의 회차를 위한 회차로가 아닌
+  					재난 및 응급상황 발생시<br>신속한 대처를 하기 위하여 설치하였습니다. <br>
+					▶　시속 90Km의 도로의 중앙에 설치한 회차로의 개방은 대형사고가 발생할 수 밖에 없으므로 절대 개방하여서는 아니됩니다.
+				</p>
+			</div>
+			
+			<div class="ac_header">
+				<p class="num deep_gray">15</p>
+				<p class="text black">잘못 진입하여 회차하는 경우에도 통행요금을 내야 하는가요?</p>
+			</div>
+			<div class="ac_content bg_light">
+				<p class="purple">답변</p>
+				<p class="answer">
+					▶　광주제2순환도로는 개방식 도로로서 이용객으로 각  IC 및 진출입로를 자유롭게 이용할 수 있는
+					도시형 자동차 전용도로 입니다.<br>
+					▶　이는 요금소를 통과할 때마다 요금을 납부해야 하는 단점이 있으나 진출입로 부지확보 어려움과<br>
+					도시형 자동차전용도로의 순기능을 위해서 도입을 하게 되었습니다.<br>
+					▶　착오 진입한 차량의 통행료를 징수하지 않을 경우 착오진입을 이유로 통행료 환불을 요구하는
+					차량이 증가될 수 있습니다.<br>
+					▶　또한 제2순환도로 전 구간이 유료구간이 아니며,  운전자가 진입여부를 선택 할 수 있도록 유료
+  					구간 진입전방에<br>“유료도로” 안내 표지판을  설치하여 운영하고 있습니다.
+				</p>
+			</div>
+			
+			<div class="ac_header">
+				<p class="num deep_gray">14</p>
+				<p class="text black">통행영수증을 발급하지 않으면 소득이 누락되지 않는가요?</p>
+			</div>
+			<div class="ac_content bg_light">
+				<p class="purple">답변</p>
+				<p class="answer">
+					▶　광주제2순환도로의 각 영업소에 설치된 요금징수시스템은 한국도로공사에서 사용하고 있는 징수
+					시스템을 도입하여 운영하고 있습니다.<br>
+					▶　차량감지장치는 손수래 또는 자전거가 진입하여도 100% 감지하는 첨단시스템이며,<br>요금소 근무
+				  	자는 근무시간동안 감지된 차량에 대하여는 통행요금을 반드시 징수하여야 할 책임이 있습니다.<br>
+					▶　진입차량의 요금을 면제 또는 할인한 경우는 차량번호 및 통행시간을 업무일지에 기록하여 제출
+					하며,<br>근무종료후 CCTV영상과 대조하는 등 감면대상 차량의 여부를 심사하여 부적합할 경우는
+					근무자가 변상을 하여야 합니다.<br>
+				  	▶　근무종료처리는 각 Toll Booth별 징수한 통행료를 근무교대 한 후 수입금액 전액을 정산시스템에
+					입력한 후 종료처리를 하여야만<br>차종별 통행대수와 징수하여야할 금액, 진입한 대수, 유료대수,
+  					무료대수 등의 확인이 가능하도록 시스템이 구성되어 있고<br> 또한 8시간 근무중 시간당 약 250~300
+  					대를 처리하고 있므로 징수하여야할 금액의 계산은 불가능합니다.<br>
+  					▶　또한 근무종료처리를 하여 징수하여야할 금액보다 부족한 금액을 입금하였을 경우는<br>당해근무자
+ 					가 변상 토록하고 있어 영수증 미발급으로 인한 소득누락은 절대 발생되지 않습니다.
+				</p>
+			</div>
+			
+			<div class="ac_header">
+				<p class="num deep_gray">13</p>
+				<p class="text black">제2순환도로의 통행료가 고속도로에 비해 비싼데 그 이유가 있나요?</p>
+			</div>
+			<div class="ac_content bg_light">
+				<p class="purple">답변</p>
+				<p class="answer">
+					▶　광주제2순환도로는 사회기반시설에대한민간투자법에 의해서 개설되어 관련법령에 의하여 관리
+					운영권이 30년으로 제한되어<br>운영기간동안 건설비 및 운영비 등을 회수하는 수준에서 결정되었기
+					때문입니다.<br>
+					▶　고속도로의 경우는 한국도로공사에서 영구적으로 관리운영하고 있어<br>민자유료도로와 통행료를
+					비교 하기에는 차이가 많다고 할 수 있습니다.<br>
+					※ 통행료 수입이 건설비 및 운영비에 부족할 경우 국가의 별도 재정지원이 필요하게 되므로<br>도로
+				    이용자가 아닌 전체 시민의 부담이 늘어날 수 밖에 없어, 수익자부담의 원칙을 적용하여 통행료를 산정하였습니다.
+				</p>
+			</div>
+			
+			<div class="ac_header">
+				<p class="num deep_gray">12</p>
+				<p class="text black">도로를 잘못 진입해도 요금을 납부해야 되나요?</p>
+			</div>
+			<div class="ac_content bg_light">
+				<p class="purple">답변</p>
+				<p class="answer">
+					▶　광주제2순환도로는 도로의 순기능을 위하여 개방식을 요금징수 방식을 적용하였기 때문에<br>요금소를
+					통과할 때마다 통행요금을 납부하여야 합니다.<br>
+					▶　폐쇄식 : 고속국도의 형태처럼 입구영업소에서 통행권을 발권받아서 출구 영업소에서 이용거리만큼
+	                통행요금을 납부<br>
+	                ▶　개방식 : 영업소부지 확보의 어려움과 요금징수 시간의 단축 등으로 인하여 도시형(서울외곽 및 대
+	                도시 순환도로)<br>자동차 전용도로에서 적용하는 방식으로 이용차량이 관리구간의 진출입로
+	                를 자유롭게 진출입 할 수는 있으나<br>요금소를 통과할 때마다 통행료를 납부 하는 방식임.
+				</p>
+			</div>
+		</div>
+
+
+
+		<ul class="pager">
+			<li class="active"><a href="">1</a></li>
+			<li><a href="">2</a></li>
+		</ul>
+	</div>
+	
+	
+	
+	<footer class="cf">
+		<hr>
+		<div class="footer_width">
+			<ul class="logo_line">
+				<li><a href="#">서비스이용약관</a></li>
+				<li><a href="#" class="green">개인정보취급방침</a></li>
+				<li><a href="#">영상 정보기기 운영·관리방침</a></li>
+				<li class="logo_img"><a href="#"><img src="img/source05.png" alt=""></a></li>
+				<li><a href="#"><img src="img/source06.png" alt=""></a></li>
+				<li><a href="#"><img src="img/source07.png" alt=""></a></li>
+				<li><a href="#"><img src="img/source08.png" alt=""></a></li>
+			</ul>
+		</div>
+		<hr>
+		<div class="footer_width">
+			<img class="home_logo" src="img/home_logo.png"></img>
+			<div class="address">
+				<p class="deep_gray">광주광역시 남구 2순환로 1508(송하동) 광주제2순환도로 송암영업소</p>
+				<ul class="deep_gray">
+					<li>E-mail : www.kjrr.co.kr</li>
+					<li><img src="img/bottom_line.png" alt=""></li>
+					<li>Tel : 062-220-8830</li>
+					<li><img src="img/bottom_line.png" alt=""></li>
+					<li>Fax : 062-234-6353</li>
+				</ul>
+			</div>
+			<div class="linkweb">
+				<div class="footer_select">
+					<a class="click_openlink">관련사이트 바로가기</a>
+					<ul class="hide_openlink">
+						<li><a href="http://www.molit.go.kr/portal.do" class="deep_gray" target="_blank">국토해양부</a></li>
+						<li><a href="http://irocm.molit.go.kr/intro.do#mltm" class="deep_gray" target="_blank">인산지방국토관리청</a></li>
+						<li><a href="https://www.gwangju.go.kr/" class="deep_gray" target="_blank">광주광역시청</a></li>
+						<li><a href="http://www.donggu.kr/index.es?sid=a1" class="deep_gray" target="_blank">광주광역시동구청</a></li>
+						<li><a href="http://www.seogu.gwangju.kr/" class="deep_gray" target="_blank">광주광역시서구청</a></li>
+						<li><a href="http://www.namgu.gwangju.kr/" class="deep_gray" target="_blank">광구광역시남구청</a></li>
+						<li><a href="http://www.bukgu.gwangju.kr/index.es?sid=a1" class="deep_gray" target="_blank">광구광역시북구청</a></li>
+						<li><a href="http://www.gwangsan.go.kr/" class="deep_gray" target="_blank">광주광역시광산구청</a></li>
+						<li><a href="https://www.gjpolice.go.kr/" class="deep_gray" target="_blank">광주지방경찰청</a></li>
+						<li><a href="http://www.ex.co.kr/" class="deep_gray" target="_blank">한국도로공사</a></li>
+						<li><a href="https://www.cneway.co.kr/main.do?s=cneway" class="deep_gray" target="_blank">천안논산고속도로</a></li>
+						<li><a href="https://seoulbeltway.co.kr/main.do?s=seoulbeltway" class="deep_gray" target="_blank">서울고속도로</a></li>
+						<li><a href="http://www.hiway21.com/home/homeIndex.do" class="deep_gray" target="_blank">인천국제공항고속도로</a></li>
+						<li><a href="https://www.dbeway.co.kr/kor/Main.do" class="deep_gray" target="_blank">신대구부산고속도로</a></li>
+						<li><a href="https://www.samsungsds.com/global/ko/index.html" class="deep_gray" target="_blank">(주)삼성SDS</a></li>
+						<li><a href="http://www.sdsystem.com/" class="deep_gray" target="_blank">(주)에스디시스템</a></li>
+					</ul>
+				</div>
+				
+				<img class="bottom_logo" src="img/bottom_logo1.png">
+				<img class="bottom_logo" src="img/bottom_logo2.png">			
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

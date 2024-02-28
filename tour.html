@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>광주제2순환도로 1~3구간</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/tour.css">
+	
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script type="text/javascript" src="js/header.js"></script>
+	<script type="text/javascript" src="js/footer.js"></script>
+	<script src="js/tab.js"></script>
+</head>
+<body>
+	<header class="cf">
+		<hr>
+		<div class="header_width cf">
+			<h1 class="home_logo">
+				<a href="index.html"></a>
+			</h1>
+			<ul class="main_header cf">
+				<li>
+					<a href="#">도로이용정보</a>
+					<ul class="area cf">
+						<li><a href="route.html">노선도</a></li>
+						<li><a href="toll.html">통행료</a></li>
+						<li><a href="limit.html">제한 차량 안내</a></li>
+						<li><a href="hipass.html">하이패스 안내</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">미납통행료</a>
+					<ul class="area cf">
+						<li><a href="search.html">미납요금조회</a></li>
+						<li><a href="payfor.html">납부방법안내</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">고객광장</a>
+					<ul class="area">
+						<li><a href="notice.html">공지사항</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="qa.html">Q＆A</a></li>
+						<li><a href="tax.html">세금계산서 안내</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">홍보자료</a>
+					<ul class="area">
+						<li><a href="public.html">사회 공헌 활동</a></li>
+						<li><a href="news.html">보도자료</a></li>
+						<li><a href="photo.html">포토 갤러리</a></li>
+						<li><a href="tour.html">주변 관광지</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">회사소개</a>
+					<ul class="area">
+						<li><a href="intro.html">인사말</a></li>
+						<li><a href="business.html">사업개요</a></li>
+						<li><a href="chart.html">조직도</a></li>
+						<li><a href="map.html">찾아오시는 길</a></li>
+					</ul>
+				</li>
+			</ul>
+			
+			<ul class="account">
+				<li class="login_btn"><a href="login.html">로그인</a></li>
+				<li><a href="agree.html">회원가입</a></li>
+				<li><a href="find.html">ID / PW찾기</a></li>
+			</ul>
+		</div>
+	</header>
+	
+	<div class="header_banner">
+		<img src="img/news_icon.png" alt="icon" class="titleicon">
+		<p class="sub_title_text">홍보자료</p>
+		<h4 class="sub_text">사회 공헌활동 · 보도자료 · 포토갤러리 · 주변관광지</h4>
+	</div>
+	
+	<div class="lnb mg cf">
+		<ul class="cf">
+			<li class="img_li"><img src="img/lnb_home.png" alt="lnb_arrow"></li>
+			<li><a href="index.html">홈</a></li>
+			<li class="img_li"><img src="img/lnb_arrow.png" alt="lnb_arrow"></li>
+			<li><a href="public.html">홍보자료</a></li>
+			<li class="img_li"><img src="img/lnb_arrow.png" alt="lnb_arrow"></li>
+			<li class="point"><a href="tour.html">주변관광지</a></li>
+		</ul>
+	</div>
+	
+	<h1 class="category_title">주변관광지</h1>
+	<p class="category_ment">가족, 연인과 함께 추억이 가득한 관광지도 함께 즐겨보세요~!</p>
+	
+	<article class="mg cf">
+		<div class="tab_button cf">
+			<div class="btn border_light_gray active">자연·공원</div>
+			<div class="btn border_light_gray">박물관·공연·축제</div>
+			<div class="btn border_light_gray">마을·야경·먹거리</div>
+		</div>
+		
+		<div class="cont">
+			<!-- first_contents -->
+			<div class="contents">
+				<div class="content cf">
+					<div class="imgcontents">
+						<img src="img/thumb01.png" alt="" class="border_gray">
+						<a href="http://www.knps.or.kr/front/portal/visit/visitCourseMain.do?parkId=122000&menuNo=7020090" class="homelink_btn border_gray" target="_blank">홈페이지</a>
+					</div>
+					<div class="right_content">
+						<h4 class="title black">무등산 국립공원</h4>
+							<p class="text deep_gray">무등산 국립공원은 전체면적 75.425㎢, 해발1,187m로 광주,담양,화순에 걸쳐 있다. 
+							서석대, 입석대로 불리는 주상절리(용암이 식을 때 수축하여 생기는 절리 중에 단면의 형태가 오각형이나 육각형의 기둥 모양인 것)을 포함해 기암괴석 등 61개의 자연경관을 자랑한다.
+							수달, 구렁이, 삵, 담비 등 멸종위기종 8종을 포함해 총 2,296종의 동식물이 서식하는 것으로 알려져 있다.</p>
+							
+							<ul class="list">
+								<li class="purple">· 문의전화 : <span class="black"> 062)-227-1187</span></li>
+								<li class="purple">· 이용시간 : <span class="black"> 04:00~17:00 (하절기:16:00)</span></li>
+								<li class="purple">· 휴일안내 : <span class="black"> [봄 철] 02.15 ∼ 05.15 / [가을철] 11.01 ∼ 12.15<br>　　　　　*입산통제기간은 무등산 국립공원 홈페이지 공지사항 참고</span></li>
+								<li class="purple">· 이용요금 : <span class="black"> 무료  /  주차장 (유료) </span></li>
+								<li class="purple">· 버스안내 : <span class="black"> 무등산국립공원(원효사) : 1187</span></li>
+							</ul>
+					</div>
+				</div>
+				<div class="content cf">
+					<div class="imgcontents">
+						<img src="img/thumb02.png" alt="" class="border_gray">
+						<a href="http://tour.gwangju.go.kr/home/tour/info/nature.cs?act=view&infoId=2" class="homelink_btn border_gray" target="_blank">홈페이지</a>
+					</div>
+					<div class="right_content">
+						<h4 class="title black">광주호수생태원</h4>
+							<p class="text deep_gray">광주호의 잔잔한 물결과 무등산의 시원한 바람을 함께 맛볼 수 있는 곳은 호수생태원 만한 곳이 없다. 호수생태원은 무등산 원효사를 넘어서 소쇄원에 접근하기 직전 광주호 옆에 자리 잡고 있다.
+							2006년 3월에 개장한 후 자연생태학습장이자 시민들의 휴식공간으로 사랑받고 있다. 2006년 3월에 개장한 후 자연생태학습장이자 시민들의 휴식공간으로 사랑받고 있다.
+							수생식물원,생태연못,야생화테마원,목재 탐방로,전망대,수변관찰대 등이 있으며, 호수 안에는 버드나무 군락지와 습지보전지역이 있다.</p>
+							
+							<ul class="list">
+								<li class="purple">· 문의전화 : <span class="black"> 062)-613-7891</span></li>
+								<li class="purple">· 이용시간 : <span class="black"> 하절기 : 09:00 ~ 19:00 / 동절기 : 09:00 ~ 18:00</span></li>
+								<li class="purple">· 휴일안내 : <span class="black"> 연중무휴</span></li>
+								<li class="purple">· 이용요금 : <span class="black"> 무료  /  주차시설 보유 (180대 주차가능)</span></li>
+								<li class="purple">· 버스안내 : <span class="black"> *광주호수생태원 : 충효187 , 충효188 /<br> 
+								　　　　　 *광주호호수생태원 : 충효188 , 충효187 / *수리 : 충효187 , 충효188<br>
+								　　　　　 *충효동환벽당 : 충효188 , 충효187</span></li>
+							</ul>
+					</div>
+				</div>
+			</div>
+			<!-- second_contents -->
+			<div class="contents">
+				<div class="content cf">
+					<div class="imgcontents">
+						<img src="img/thumb03.png" alt="" class="border_gray">
+						<a href="http://gwangju.museum.go.kr/index.do" class="homelink_btn border_gray" target="_blank">홈페이지</a>
+					</div>
+					<div class="right_content">
+						<h4 class="title black">광주 국립박물관</h4>
+							<p class="text deep_gray">한국의 전통양식에 맞추어 지어진 국립광주박물관은 현재 지상 2층, 지하 4층의 건물에 3,305m²(1,000여평) 전시실과 넓은 유물보관시설을 갖추고 있으며 넓은 야외전시장겸 정원이 박물관을 감싸고 있다. 또한 1996년 12월 착공한 전시실 개보수 및 수장고 신축공사의 완공으로 기획전시실과 불교미술실이 신설되었다.
+							박물관이 소장하고 있는 전시 유물은  호남지방의 선사시대 유물, 백제·통일신라·고려·조선시대에 걸친 불교미술품과 각종 도자기 등이 있고, 신안 앞바다의 해저유물 등이다. 1층에는 서화실, 기획전시실Ⅰ·Ⅱ, 불교미술실, 2층에는 선사실, 고대실, 고려도자실, 조선도자실, 신안해저유물실이 있고, 야외에는 고려청자가마터, 각 지석묘, 전 보안사지부도, 광주 장운동 석탑 등이 전시되어 있다. 2007년에는 교육관을 신축하고 어린이 박물관을 신설하여 운영하고 있다.</p>
+							
+							<ul class="list">
+								<li class="purple">· 문의전화 : <span class="black"> 062-570-7000</span></li>
+								<li class="purple">· 이용시간 : <span class="black"> 평일(월~금) : 09:00 ~ 18:00 / 토,일,공휴일 : 09:00 ~ 19:00 /<br>　　　　 　야간개장(3월~10월중 매주 토요일, 매달 마지막 주 수요일): 09:00 ~ 21:00 /<br>　　　　 　입장은 마감시간 30분까지</span></li>
+								<li class="purple">· 휴일안내 : <span class="black"> 매년 1월 1일, 설.추석 당일</span></li>
+								<li class="purple">· 이용요금 : <span class="black"> 무료</span></li>
+								<li class="purple">· 버스안내 : <span class="black"> *광주박물관 : 송정29 , 상무63 , 송정33 , 문흥53
+								비엔날레주차장 : 송정33 <br>
+								　　　　　 *박물관입구 : 용전84 , 용전85 , 첨단95
+								시립민속박물관 : 송정29 , 상무63 , 문흥53</span></li>
+							</ul>
+					</div>
+				</div>
+				<div class="content cf">
+					<div class="imgcontents">
+						<img src="img/thumb04.png" alt="" class="border_gray">
+						<a href="https://www.acc.go.kr/" class="homelink_btn border_gray" target="_blank">홈페이지</a>
+					</div>
+					<div class="right_content">
+						<h4 class="title black">국립아시아문화전당</h4>
+							<p class="text deep_gray">2015년에 개관한 국립아시아문화전당(ACC)은 아시아의 문화교류,문화자원 수집·연구, 콘텐츠의 창·제작 그리고 전시,공연,아카이브,유통이 한 곳에서 모두 이루어지는 세계적인 복합문화기관이다. 복합문화공간의 규모로는 세계최고를 자랑한다. 여기에는 민주평화교류원,문화정보원,문화창조원,어린이문화원,예술극장,아시아문화광장,연린마당,하늘마당,옥상공원 등 다양한 문화 시설이 있다.
+							아시아의 가치를 담기 위해 아시아 국가 간 문화교류를 통해 다양한 문화콘텐츠를 창조하고 있고, 공연과 전시로 실현할 수 있으며, 작품을 아시아와 세계로 진출시킬 수 있는 유통 시스템을 제공하고 있다.
+							전시,공연,도서관 등 다양한 시설의 문화들을 체험하고 즐길 수 있는 놀이터이기도 하고, 아시아의 무한한 자료를 찾아 연구하고 문화 전문 인력이 될 수 있는 배움터이기도 하다.</p>
+							
+							<ul class="list">
+								<li class="purple">· 문의전화 : <span class="black"> 1899-5566</span></li>
+								<li class="purple">· 이용시간 : <span class="black"> 화~일 : 10시 ~ 18시 / 수: 10시~ 21시 / 토: 10시~19시</span></li>
+								<li class="purple">· 휴일안내 : <span class="black"> 매주 월요일, 1월1일 휴관</span></li>
+								<li class="purple">· 이용요금 : <span class="black"> 프로그램마다 상이(홈페이지 확인)</span></li>
+								<li class="purple">· 버스안내 : <span class="black"> *광주호수생태원 : 충효187 , 충효188 /<br> 
+								　　　　　 *광주호호수생태원 : 충효188 , 충효187 / *수리 : 충효187 , 충효188<br>
+								　　　　　 *충효동환벽당 : 충효188 , 충효187</span></li>
+							</ul>
+					</div>
+				</div>
+				<div class="content cf">
+					<div class="imgcontents">
+						<img src="img/thumb05.png" alt="" class="border_gray">
+						<a href="http://www.gwangjubiennale.org/gb/index.do" class="homelink_btn border_gray" target="_blank">홈페이지</a>
+					</div>
+					<div class="right_content">
+						<h4 class="title black">광주비엔날레</h4>
+							<p class="text deep_gray">2년마다 열리는 국제현대미술제’인 광주비엔날레는 지난 1995년 시작되어 이제는 세계 3대 비엔날레로 자리잡았다.
+							광주 비엔날레는 광복 50주년과 ‘미술의 해’를 기념하며, 5·18 광주민주항쟁 이후 국제 사회 속에 널리 알려지기 시작한 광주 민주정신을 새로운 문화적 가치로 승화시키기 위하여 창설되었다.
+							광주비엔날레는 동서양의 평등한 역사 창조와 21세기 아시아 문화의 능동적 발아와 문화공동체를 위한 시각예술의 표현형식을 빌려서 민족,국가,문화권 간의 문화적 소통의 폭을 넓혀 가고 있다.
+							광주비엔날레는 문화도시, 민주도시 광주가 문화발신지가 되어 세계와 교류를 넓혀 나가는 국제 현대미술의 장이다.</p>
+							
+							<ul class="list">
+								<li class="purple">· 문의전화 : <span class="black"> 062-608-4114</span></li>
+								<li class="purple">· 이용시간 : <span class="black"> 9:00 ~ 18:00 (매표마감 17:30)</span></li>
+								<li class="purple">· 휴일안내 : <span class="black"> 매주 월요일, 1월1일 휴관</span></li>
+								<li class="purple">· 이용요금 : <span class="black"> 유료(제휴할인,연계 전시할인 등 상세정보는 홈페이지 확인)</span></li>
+								<li class="purple">· 버스안내 : <span class="black"> *비엔날레전시관 : 419 , 용봉83 , 상무64 시립민속박물관 : 상무63 , 송정29 , 문흥53 <br>　　　　　 *비엔날레전시관입구 : 용봉83용봉쌍용아파트 : 상무63 , 문흥53 , 송정29</span></li>
+							</ul>
+					</div>
+				</div>
+			</div>
+			<!-- third_contents -->
+			<div class="contents">
+				<div class="content cf">
+					<div class="imgcontents">
+						<img src="img/thumb06.png" alt="" class="border_gray">
+						<a href="http://tour.gwangju.go.kr/home/tour/info/village/001.cs?act=view&infoId=52" class="homelink_btn border_gray" target="_blank">홈페이지</a>
+					</div>
+					<div class="right_content">
+						<h4 class="title black">양림동 펭귄마을</h4>
+							<p class="text deep_gray">양림동 주민 센터 뒤에 펭귄모양의 이정표를 따라 좁은 골목길을 들어가면 70, 80년대 마을이 전시장으로 변모하고 있다.
+							무릎이 불편한 어르신이 뒤뚱뒤뚱 걷는 모습이 펭귄 같다고 하여 이름 지어진 마을.
+							마을 주민들은 과거에 화재로 타 방치되어 있던 빈집을 치우고 버려진 물건을 가져 와 동네 벽에 전시하기 시작했다.
+							마을 담벼락 에는 ‘그때 그 시절 살아있음에 감사하자’ 고 새겨 놓았다.
+							마을 한가운데 있는 펭귄 주막은 주민들의 사랑방, 조그맣지만 필요한 물건들이 다 있다.
+							공방 앞에는 마을 소식지도 붙어 있다.</p>
+							
+							<ul class="list">
+								<li class="purple">· 문의전화 : <span class="black"> 062-607-4502</span></li>
+								<li class="purple">· 이용시간 : <span class="black"> 상시 개방</span></li>
+								<li class="purple">· 휴일안내 : <span class="black"> 없음</span></li>
+								<li class="purple">· 이용요금 : <span class="black"> 무료  /  주차장 없음 </span></li>
+								<li class="purple">· 버스안내 : <span class="black"> *양림교 : 금남55 *학강교 : 금남55 *학강초교 : 금남55 <br>　　　　　
+								*전남대병원/남광주시장 : 지원52 , 봉선37 , 운림54 , 지원45 , 금남59 , 운림51 , 
+								<br>　　　 　　지원151(화순사평) , 첨단95 , 지원152(능주역) , 지원152(도웅리) , 첨단09 , 수완49 ,<br>　　　 　　지원151(화순전남대병원) , 수완12</span></li>
+							</ul>
+					</div>
+				</div>
+				<div class="content cf">
+					<div class="imgcontents">
+						<img src="img/thumb07.png" alt="" class="border_gray">
+						<a href="http://tour.gwangju.go.kr/home/tour/info/nightscape.cs?act=view&infoId=58" class="homelink_btn border_gray" target="_blank">홈페이지</a>
+					</div>
+					<div class="right_content">
+						<h4 class="title black">사직공원 전망대</h4>
+							<p class="text deep_gray">광주 전역을 조망할 수 있는 사직공원 전망대는 문화공간이 적절하게 어우러져 있어 즐길거리가 풍부하다.
+							전망대가 자리잡고 있는 사직공원은 봄이면 벚꽃이 만발하여 시민들이 즐겨찾는 휴식처로 자리매김하고 있다.</p>
+							
+							<ul class="list">
+								<li class="purple">· 문의전화 : <span class="black"> 	062-672-0660</span></li>
+								<li class="purple">· 이용시간 : <span class="black"> 3 ~ 11월(하절기) : 09:00 ~ 22:00 / 12~2월 (동절기) : 09:00 ~ 21:00</span></li>
+								<li class="purple">· 휴일안내 : <span class="black"> 연중무휴</span></li>
+								<li class="purple">· 이용요금 : <span class="black"> 무료</span></li>
+								<li class="purple">· 버스안내 : <span class="black">*서남대병원 : 금남55
+								향교 : 지원45 , 매월06 , 진월07 , 송암74 , 수완12 , 대촌170
+								<br>　　　　　 *KBC방송국 : 수완12 , 송암74 , 매월06 , 진월07 , 지원45 , 대촌170</span></li>
+							</ul>
+					</div>
+				</div>
+				<div class="content cf">
+					<div class="imgcontents">
+						<img src="img/thumb08.png" alt="" class="border_gray">
+						<a href="https://blog.naver.com/byeoljang" class="homelink_btn border_gray" target="_blank">홈페이지</a>
+					</div>
+					<div class="right_content">
+						<h4 class="title black">대인예술시장</h4>
+							<p class="text deep_gray">매주 토요일 밤 열리는 별장 야시장은 이동식 가판대 에 전업 작가 , 아마 추어작가 들이 만든 독특한 상품들이 가득하다.
+							은을 가공해 만든 단 하나 의 액세서리, 고급스로운 생활 도자기 소품 , 수제 비누, 예술 도마 등 금속공예, 목공예,생활공예 , 그림 등 시장 가득 늘어서 있는 아트상점 들은 어디를 가든 눈길을 끈다.
+							금강산도 식후경에 걸맞은 맛있고 푸짐한 국밥과 마카로니 디저트, 천 원 짜리 국수, 녹두전과 문어 꼬치 등 퓨전 음식과 전통 먹거리가 함께 어울려 있어서 이를 맛보기 위한 사람들은 즐겁게 소곤 거리며 줄을 서 있다.
+							“어여 들어와 보랑께” 라는 호객 소리조차 정겨운 예술 시장에서 연인과 함께, 아이들과 함께, 혹은 카메라만 달랑 들고 어슬렁거리는 초보 작가를 구경하는 것도 인간 냄새를 흠뻑 맛볼 수 있다.</p>
+							
+							<ul class="list">
+								<li class="purple">· 문의전화 : <span class="black"> 062-233-1420</span></li>
+								<li class="purple">· 이용시간 : <span class="black"> 매주 토요일 오후 7시~11시</span></li>
+								<li class="purple">· 휴일안내 : <span class="black"> 홈페이지에서 확인</span></li>
+								<li class="purple">· 이용요금 : <span class="black"> 무료</span></li>
+								<li class="purple">· 버스안내 : <span class="black">*대인시장(서) : 진월07 , 지원152(능주역) , 지원152(도웅리) , 봉선37 , 지원52 , 금남58 ,<br>　　　　　 좌석02 , 두암81(무등파크방향) , 두암81(각화초교방향) , 대촌70 , 대촌170
+								<br>　　　　　 *동부소방서 : 용전184(대전면방향) , 대촌170 , 지원152(능주역) , 지원152(도웅리) ,<br>　　　　　 용전184(원천리방향) , 두암81(각화초교방향) , 대촌70 , 좌석02 , 금남58 , 지원52 , 봉선37<br>　　　　　 
+								*대인시장(동) : 운림54 , 419 , 518 , 문흥39 , 지원151(화순전남대병원) , 석곡87 ,<br>　　　　　 용전184(원천리방향) , 지원151(화순사평) , 용전184(대전면방향) , 송정98 , 매월06</span></li>
+							</ul>
+					</div>
+				</div>
+				<div class="content cf">
+					<div class="imgcontents">
+						<img src="img/thumb09.png" alt="" class="border_gray">
+						<a href="https://1913songjungmarket.modoo.at/" class="homelink_btn border_gray" target="_blank">홈페이지</a>
+					</div>
+					<div class="right_content">
+						<h4 class="title black">1913 송정역 시장</h4>
+							<p class="text deep_gray"> KTX 송정역 건너편 골목 송정역전 매일시장이 새 단장을 했다.
+							가게마다 예쁜 글씨 간판이 내걸렸다. 동네 호떡, 꼬지샵, 계란밥, 어묵, 고로케, 홍삼 요거트 등 ‘시장’하면 떠오르는 음식들이 눈과 코를 자극 한다.
+							두부마을 옆 국수공장에서는 천 원짜리 잔치국수도 맛볼 수 있다.
+							전통적인 전라도 사투리를 이용해 만든 달력이나 공책 등이 인기만점.
+							1913 년부터 광주 송정역과 함께 명맥을 같이한 송정역 매일시장은 100년 역사를 간직한 유서 깊은 전통 시장이다. 한때 생활에 필요한 식재료와 물건을 찾는 손님들로 북적 거렸던 이곳도 1990년대 이후 우후죽순으로 생겨난 대형 마트에 밀려 여느 전통시장 처럼 서서히 쇠퇴의 수순 을 밟아 왔다.
+							송정역 시장은 전통시장 과 대형마트와의 다름을 인정하고 전통시장의 특색을 강화하는 변화를 모색하여 지켜야 할 유산 으로 시간을 선택 했다.</p>
+							
+							<ul class="list">
+								<li class="purple">· 문의전화 : <span class="black"> 010-6611-3434</span></li>
+								<li class="purple">· 이용시간 : <span class="black"> 보통 오전 11시 ~ 오후 10시 /  금,토,일 오전 11시 ~ 오후 11시까지 /<br>　　　　　 주류판매점은 대략 오후 12시까지</span></li>
+								<li class="purple">· 휴일안내 : <span class="black"> 매월 둘째주, 넷째주 월요일</span></li>
+								<li class="purple">· 이용요금 : <span class="black"> 무료 / 1913 송정역시장 공용주차장 (차량 48대 주차가능)</span></li>
+								<li class="purple">· 버스안내 : <span class="black">*광주송정역(동) : 진곡196 , 마을701 , 1000 , 송정100
+								금강1길 : 송정100 , 마을701 , 1000 ,<br>　　　　　 진곡196<br>　　　　　 *광주송정역 : 송정98 , 송정96 , 송정99 , 마을720-1 , 마을701 , 선운101(시립인광병원) ,<br>　　　　　  송정29 ,송정19 , 선운101(송산유원지) , 송정33 , 좌석02 , 송정93 , 송정296 , 임곡290 ,<br>　　　　　 송정197 , 송정97 , 진월75 , 임곡90 , 송정100 , 1000 , 진곡196</span></li>
+							</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+
+	<footer class="cf">
+		<hr>
+		<div class="footer_width">
+			<ul class="logo_line">
+				<li><a href="#">서비스이용약관</a></li>
+				<li><a href="#" class="green">개인정보취급방침</a></li>
+				<li><a href="#">영상 정보기기 운영·관리방침</a></li>
+				<li class="logo_img"><a href="#"><img src="img/source05.png" alt=""></a></li>
+				<li><a href="#"><img src="img/source06.png" alt=""></a></li>
+				<li><a href="#"><img src="img/source07.png" alt=""></a></li>
+				<li><a href="#"><img src="img/source08.png" alt=""></a></li>
+			</ul>
+		</div>
+		<hr>
+		<div class="footer_width">
+			<img class="home_logo" src="img/home_logo.png"></img>
+			<div class="address">
+				<p class="deep_gray">광주광역시 남구 2순환로 1508(송하동) 광주제2순환도로 송암영업소</p>
+				<ul class="deep_gray">
+					<li>E-mail : www.kjrr.co.kr</li>
+					<li><img src="img/bottom_line.png" alt=""></li>
+					<li>Tel : 062-220-8830</li>
+					<li><img src="img/bottom_line.png" alt=""></li>
+					<li>Fax : 062-234-6353</li>
+				</ul>
+			</div>
+			<div class="linkweb">
+				<div class="footer_select">
+					<a class="click_openlink">관련사이트 바로가기</a>
+					<ul class="hide_openlink">
+						<li><a href="http://www.molit.go.kr/portal.do" class="deep_gray" target="_blank">국토해양부</a></li>
+						<li><a href="http://irocm.molit.go.kr/intro.do#mltm" class="deep_gray" target="_blank">인산지방국토관리청</a></li>
+						<li><a href="https://www.gwangju.go.kr/" class="deep_gray" target="_blank">광주광역시청</a></li>
+						<li><a href="http://www.donggu.kr/index.es?sid=a1" class="deep_gray" target="_blank">광주광역시동구청</a></li>
+						<li><a href="http://www.seogu.gwangju.kr/" class="deep_gray" target="_blank">광주광역시서구청</a></li>
+						<li><a href="http://www.namgu.gwangju.kr/" class="deep_gray" target="_blank">광구광역시남구청</a></li>
+						<li><a href="http://www.bukgu.gwangju.kr/index.es?sid=a1" class="deep_gray" target="_blank">광구광역시북구청</a></li>
+						<li><a href="http://www.gwangsan.go.kr/" class="deep_gray" target="_blank">광주광역시광산구청</a></li>
+						<li><a href="https://www.gjpolice.go.kr/" class="deep_gray" target="_blank">광주지방경찰청</a></li>
+						<li><a href="http://www.ex.co.kr/" class="deep_gray" target="_blank">한국도로공사</a></li>
+						<li><a href="https://www.cneway.co.kr/main.do?s=cneway" class="deep_gray" target="_blank">천안논산고속도로</a></li>
+						<li><a href="https://seoulbeltway.co.kr/main.do?s=seoulbeltway" class="deep_gray" target="_blank">서울고속도로</a></li>
+						<li><a href="http://www.hiway21.com/home/homeIndex.do" class="deep_gray" target="_blank">인천국제공항고속도로</a></li>
+						<li><a href="https://www.dbeway.co.kr/kor/Main.do" class="deep_gray" target="_blank">신대구부산고속도로</a></li>
+						<li><a href="https://www.samsungsds.com/global/ko/index.html" class="deep_gray" target="_blank">(주)삼성SDS</a></li>
+						<li><a href="http://www.sdsystem.com/" class="deep_gray" target="_blank">(주)에스디시스템</a></li>
+					</ul>
+				</div>
+				
+				<img class="bottom_logo" src="img/bottom_logo1.png">
+				<img class="bottom_logo" src="img/bottom_logo2.png">			
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

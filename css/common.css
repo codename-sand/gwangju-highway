@@ -1,0 +1,78 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/earlyaccess/notosanskr.css";
+*{margin:0;padding:0;border:0;outline:0;box-sizing:border-box}
+html,body{font-family:'Noto Sans KR',sans-serif;letter-spacing:-1px;min-width:1000px}
+ul,ol,dl{list-style:none}
+a{text-decoration:none;cursor:pointer}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+table,table tr,table td{border:0;border-collapse:collapse;border-spacing:0}
+.cf:after{clear:both;display:block;content:""}
+.center{max-width:1000px;margin:0 auto}
+p{font-size:15px;color:#363636}
+.mg{width:1000px;margin:0 auto}
+.white{color:#fff!important}
+.black{color:#363636!important}
+.deep_gray{color:#6b6b6b!important}
+.light_gray{color:#8e8e8e!important}
+.purple{color:#353b91!important}
+.blue{color:#0a8ec9!important}
+.green{color:#0ea460!important}
+.red{color:#c5242a!important}
+.bg_black{background-color:#363636!important}
+.bg_deep_gray{background-color:#6b6b6b!important}
+.bg_light_gray{background-color:#8e8e8e!important}
+.bg_purple{background-color:#353b91!important}
+.bg_blue{background-color:#0a8ec9!important}
+.bg_green{background-color:#0ea460!important}
+.bg_red{background-color:#c5242a!important}
+.bg_light{background-color:#fafafa!important}
+.border_black{border:1px solid #363636!important}
+.border_deep_gray{border:1px solid #6b6b6b!important}
+.border_light_gray{border:1px solid #8e8e8e!important}
+.border_purple{border:1px solid #353b91!important}
+.border_blue{border:1px solid #0a8ec9!important}
+.border_green{border:1px solid #0ea460!important}
+.border_red{border:1px solid #c5242a!important}
+.border_gray{border:1px solid #e0e0e0!important}
+.ellipsis{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+h1{font-size:36px;font-weight:400}
+h2{font-size:24px;font-weight:400}
+h3{font-size:22px;font-weight:500}
+h4{font-size:20px;font-weight:400}
+h5{font-size:18px;font-weight:400}
+h6{font-size:16px;font-weight:400}
+article{width:1200px;margin:0 auto;margin-top:40px}
+input::-webkit-input-placeholder{color:#8e8e8e;font-size:14px;font-weight:300}
+input:-ms-input-placeholder{color:#8e8e8e;font-size:14px;font-weight:300}
+input::-moz-placeholder{color:#8e8e8e;font-size:14px;font-weight:300}
+.header_banner{width:100%;height:512px;margin-bottom:30px;text-align:center}
+.header_banner img.titleicon{width:150px;height:150px;margin-top:160px}
+.header_banner p.sub_title_text{font-size:50px;font-weight:300;color:#fff;text-shadow:2px 1px 5px #616065}
+.header_banner h4.sub_text{font-weight:300;color:#fff;text-shadow:2px 1px 5px #616065}
+.lnb{margin-bottom:30px}
+.lnb ul{float:right}
+.lnb ul li{float:left}
+.lnb ul li a{font-size:15px;color:#a7a7a7;font-weight:300}
+.lnb ul li.point a{color:#6b6b6b;font-weight:500}
+.lnb ul li.img_li{margin:0 5px}
+.lnb ul li:first-child{margin-top:2px}
+.category_title{text-align:center;font-weight:500;color:#363636;margin-bottom:15px}
+.category_ment{color:#6b6b6b;text-align:center;margin-bottom:40px}
+.tab_button{text-align:center;margin-bottom:50px;cursor:pointer}
+.tab_button .btn{display:inline-block;width:160px;height:48px;line-height:46px;font-size:16px;box-sizing:border-box;border-radius:24px;color:#8e8e8e;margin-left:20px}
+.tab_button .btn:first-child{margin:0}
+.tab_button div.active,article .tab_button .btn:hover{background-color:#353b91;border-color:#353b91!important;color:#fff;font-weight:500}
+h5.content_title{color:#363636;font-weight:500;padding-left:30px;background:url(../img/speed_icon.png) no-repeat left 1px;line-height:20px;padding-bottom:20px}
+.table_style{width:100%;border-bottom:1px solid #353b91}
+.table_style tr th{height:55px;border-top:2px solid #353b91;border-bottom:1px solid #353b91;font-size:15px;font-weight:500;color:#363636}
+.table_style tr th span{font-size:14px;font-weight:400}
+.table_style tr td{text-align:center;font-size:15px;color:#363636;padding:20px 0;border-top:1px solid #e0e0e0}
+.count{float:left;margin-bottom:15px}
+.count img{float:left;margin-top:5px;margin-right:5px}
+.count p{float:left;font-size:16px}
+.count p span{font-weight:500}
+.pager{margin-top:20px;text-align:center}
+.pager li{display:inline-block;margin-left:20px}
+.pager li:first-child{margin-left:0}
+.pager li.active a{font-weight:500;color:#353b91}

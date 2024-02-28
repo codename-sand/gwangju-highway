@@ -1,0 +1,18 @@
+@charset "utf-8";
+.header_banner{background:url(../img/pay_bg.png) center center}
+.content_title{border-bottom:2px solid #353b91;margin-bottom:30px}
+.content,.content2,.content3,.content4{margin-bottom:80px}
+.content div.cont{width:320px;text-align:center;float:left;margin-right:20px}
+.content div.cont:last-child{margin-right:0}
+.content div.cont img{width:320px;height:170px}
+.content div.cont p.purple_title{font-size:15px;background-color:#7278ca;border-radius:100px;line-height:35px;font-weight:300;width:215px;margin-left:calc(100%/6);margin-top:13px;margin-bottom:8px}
+.content2 .cont{widows:490px;text-align:center;float:left;margin-right:20px}
+.content2 div.cont:last-child{margin-right:0}
+.content2 div.cont p.purple_title{font-size:15px;background-color:#7278ca;border-radius:100px;line-height:35px;font-weight:300;width:215px;margin-left:calc(100%/3.6);margin-top:13px;margin-bottom:8px}
+.content2 .notice{width:490px;margin-top:20px;text-align:right;font-size:12.8px;color:#a7a7a7}
+.content3 .border_gray{width:500px;border-radius:10px 0 0 10px;margin-top:30px;padding:10px 10px 10px 30px;box-sizing:border-box;float:left}
+.content3 .second_cont{border-radius:0 10px 10px 0;margin-left:-1px}
+.content4 .purple_title{font-size:15px;background-color:#7278ca;border-radius:100px;line-height:35px;font-weight:300;text-align:center;width:215px;position:relative}
+.content4 .border-purple{border-radius:15px;height:230px;margin-top:-23px;width:1000px;border:1px solid #979bdc;margin-bottom:10px;background-image:url(../img/step_bg.png)}
+.content4 .border-purple div.step{width:330px;height:230px;text-align:center;padding-top:44px;float:left}
+.content4 .border-purple div.step:last-child{float:right}

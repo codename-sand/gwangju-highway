@@ -1,0 +1,20 @@
+@charset "utf-8";
+header hr{border:1px solid #e0e0e0}
+.fake{width:100%;height:103px;margin-bottom:80px}
+.category_ment{margin-bottom:50px}
+.login{box-sizing:border-box;padding:60px 0}
+.login input[type="text"]{display:block;margin:0 auto;width:400px;height:40px;box-sizing:border-box;padding-left:10px;font-family:inherit;font-size:15px}
+.login input[type="password"]{display:block;margin:0 auto;width:400px;height:40px;box-sizing:border-box;padding-left:10px;font-family:inherit;font-size:15px}
+.login .pw_box{margin:20px auto 15px!important}
+.login .save{width:400px;margin:0 auto}
+.login .save label{cursor:pointer;font-size:14px;color:#6b6b6b;float:right;line-height:13px;margin-left:10px}
+.login .save .check_wrap{float:right;width:13px;height:13px;position:relative}
+input[type="checkbox"]{width:13px;height:13px;position:absolute;top:0;left:0;margin:0!important;opacity:0;z-index:2;cursor:pointer}
+.check_btn{width:13px;height:13px;background:url(../img/checkbox_02.png);position:absolute;top:0;left:0}
+input[type="checkbox"]:checked + .check_btn{background:url(../img/checkbox_01.png)}
+.login input[type="submit"]{display:block;margin:40px auto 50px;width:400px;height:55px;color:#fff;font-family:inherit;font-size:16px;font-weight:500;cursor:pointer}
+.login .line{width:600px;height:1px;background-color:#e0e0e0;margin:0 auto 20px}
+.login ul{text-align:center}
+.login ul li{display:inline-block;line-height:12px;padding:0 20px}
+.login ul li:first-child{margin-right:-5px;border-right:1px solid #e0e0e0}
+.login ul li a{font-size:15px;color:#363636}

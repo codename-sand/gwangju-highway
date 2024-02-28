@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>광주제2순환도로 1~3구간</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/footer.css">
+
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<!-- <script type="text/javascript" src="js/slide.js"></script> -->
+	<script type="text/javascript" src="js/footer.js"></script>
+	<script type="text/javascript" src="js/header.js"></script>
+
+</head>
+
+<body>
+	<header class="cf">
+		<hr>
+		<div class="header_width cf">
+			<h1 class="home_logo">
+				<a href="index.html"></a>
+			</h1>
+			<ul class="main_header cf">
+				<li>
+					<a href="#">도로이용정보</a>
+					<ul class="area cf">
+						<li><a href="route.html">노선도</a></li>
+						<li><a href="toll.html">통행료</a></li>
+						<li><a href="limit.html">제한 차량 안내</a></li>
+						<li><a href="hipass.html">하이패스 안내</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#">미납통행료</a>
+					<ul class="area cf">
+						<li><a href="search.html">미납요금조회</a></li>
+						<li><a href="payfor.html">납부방법안내</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#">교통정보</a>
+					<ul class="area">
+						<li><a href="traffic.html">교통정보</a></li>
+						<li><a href="trafficlive.html">교통 통제 현황</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#">고객광장</a>
+					<ul class="area">
+						<li><a href="notice.html">공지사항</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="qa.html">Q＆A</a></li>
+						<li><a href="tax.html">세금계산서 안내</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#">홍보자료</a>
+					<ul class="area">
+						<li><a href="public.html">사회 공헌 활동</a></li>
+						<li><a href="news.html">보도자료</a></li>
+						<li><a href="photo.html">포토 갤러리</a></li>
+						<li><a href="tour.html">주변 관광지</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="#">회사소개</a>
+					<ul class="area">
+						<li><a href="intro.html">인사말</a></li>
+						<li><a href="business.html">사업개요</a></li>
+						<li><a href="chart.html">조직도</a></li>
+						<li><a href="map.html">찾아오시는 길</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul class="account">
+				<li class="login_btn"><a href="login.html">로그인</a></li>
+				<li><a href="agree.html">회원가입</a></li>
+				<li><a href="find.html">ID / PW찾기</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<div class="mainbanner">
+
+	</div>
+
+	<article class="contents cf">
+
+		<div class="news border_gray">
+			<h3 class="black">보도자료</h3>
+			<a class="btn" href="news.html"></a>
+			<img src="img/source01.png" alt="news" class="newsimg">
+
+			<div class="news_text_line">
+				<a href="#">
+					<h6 class="news_title light_gray">[보도자료] 하이패스차로 OBU 인식이 안된 경우 안내사항에 대한 보도자료로 다운받으셔서 활용하세요</h6>
+					<p class="news_date light_gray">2017-02-10</p>
+				</a>
+			</div>
+			<div class="news_text_line">
+				<a href="#">
+					<h6 class="news_title light_gray">[보도자료]수원 SK청솔노인복지관 혹한기 물품나눔 자원봉사</h6>
+					<p class="news_date light_gray">2017-02-05</p>
+				</a>
+			</div>
+			<div class="news_text_line">
+				<a href="#">
+					<h6 class="news_title light_gray">[보도자료] 성남지역 아동센터와 체험자원봉사를 통한 이웃사랑 실천</h6>
+					<p class="news_date light_gray">2017-01-27</p>
+				</a>
+			</div>
+		</div>
+
+		<div class="traffic_info border_gray">
+			<h3 class="black">교통정보</h3>
+			<a class="btn" href="index.html"></a>
+			<p class="contents_sub_text deep_gray">
+				고속도로의 이동성 확보,<br>신속한 교통사고 처리 및 통행 수요 관리를<br>고속도로 이용자에게 신속하게 제공합니다.
+			</p>
+		</div>
+
+		<div class="cctv border_gray">
+			<h3 class="black">실시간 CCTV</h3>
+			<a class="btn" href="index.html"></a>
+			<p class="contents_sub_text deep_gray">
+				광주제2순환도로의 구간별 cctv를<br>실시간으로 확인하실 수 있습니다.
+			</p>
+		</div>
+
+		<div class="charge bg_purple">
+			<h3 class="white">미납 통행료 조회/ 납부</h3>
+			<a class="btn" href="search.html"></a>
+			<p class="contents_sub_text white">
+				고객님의 미납 통행요금을 조회해보세요!
+			</p>
+			<div class="searchbar">
+				<input type="search" class="searchnum" placeholder="차량번호를 입력해주세요">
+				<input type="submit" class="search_btn" value="">
+			</div>
+			<p class="sub_text white">
+				입력 예 : 00가0000 혹은 서울00가0000으로입력해 주시기 바랍니다.
+			</p>
+
+		</div>
+
+		<div class="fee_notice border_gray">
+			<h3 class="black">통행료 안내</h3>
+			<a class="btn" href="toll.html"></a>
+			<p class="contents_sub_text deep_gray">
+				차량별 및 구간별 통행료를<br>자세하게 조회하실 수 있습니다.
+			</p>
+		</div>
+
+		<div class="favorite_menu border_gray">
+			<h3 class="black">자주찾는메뉴</h3>
+
+			<div class="menu">
+				<a href="route.html" class="icon">
+					<img src="img/icon01.png" alt="icon">
+				</a>
+				<h6 class="menutext black">노선도 안내</h6>
+			</div>
+
+			<div class="menu">
+				<a href="hipass.html" class="icon">
+					<img src="img/icon02.png" alt="icon">
+				</a>
+				<h6 class="menutext black">하이패스 안내</h6>
+			</div>
+
+			<div class="menu">
+				<a href="limit.html" class="icon">
+					<img src="img/icon03.png" alt="icon">
+				</a>
+				<h6 class="menutext black">제한차량 안내</h6>
+			</div>
+
+			<div class="menu">
+				<a href="tax.html" class="icon">
+					<img src="img/icon04.png" alt="icon">
+				</a>
+				<h6 class="menutext black">세금 계산서 안내</h6>
+			</div>
+		</div>
+
+		<div class="weather bg_blue border_gray">
+			<h3 class="white">도로 기상 정보</h3>
+			<img src="img/weather02.png" alt="weathericon">
+			<div class="loc">
+				<h5 class="region white ellipsis">광주</h5>
+				<h5 class="temperature white"><span>18.5</span>℃</h5>
+			</div>
+			<div class="weather_info">
+				<p class="info_title white">노면온도(℃)</p>
+				<span class="temperature_value">21.8</span>
+			</div>
+			<div class="weather_info">
+				<p class="info_title white">가시거리(m)</p>
+				<span class="temperature_value">2000</span>
+			</div>
+		</div>
+
+		<div class="slide_banner">
+			<ul class="border_gray">
+				<li>
+					<a href="public.html" style="background-image: url(img/sourcebg04.png);">
+						<h3 class="white">무료급식 봉사참여</h3>
+						<p class="contents_sub_text white">
+							까리따스수녀회 성요셉의 집<br>무료급식 자원봉사
+						</p>
+					</a>
+				</li>
+				<!-- <li>
+					<a href="public2.html" style="background-image: url(img/sourcebg05.png);">
+						<h3 class="white">김장나눔 자원봉사</h3>
+						<p class="contents_sub_text white">
+							김장나눔행사<br>자원봉사
+						</p>
+					</a>
+				</li>
+				<li>
+					<a href="public3.html" style="background-image: url(img/sourcebg06.png);">
+						<h3 class="white">장학금 전달</h3>
+						<p class="contents_sub_text white">
+							광주고려인마을 인재육성 장학금<br> 전달식 참석
+						</p>
+					</a>
+				</li> -->
+			</ul>
+		</div>
+
+		<div class="tour_list border_gray">
+			<h3 class="black">주변 관광지
+				<span class="subtext deep_gray">주변 관광지들도 함께 이용하여 좋은 추억을 만들어보세요!</span>
+			</h3>
+			<a class="btn" href="tour.html"></a>
+
+			<div class="contentslist">
+				<a href="tour.html" class="tour_contents">
+					<img src="img/source02.png" alt="tour" class="tourimg border_gray">
+					<p class="black tour_title ellipsis">광주 호수생태원</p>
+					<p class="loc light_gray ellipsis">광주 북구 충효동 443-5</p>
+				</a>
+
+				<a href="tour.html" class="tour_contents">
+					<img src="img/source03.png" alt="tour" class="tourimg border_gray">
+					<p class="black tour_title ellipsis">국립광주박물관</p>
+					<p class="loc light_gray ellipsis">광주 북구 하서로 110</p>
+				</a>
+
+				<a href="tour.html" class="tour_contents">
+					<img src="img/source04.png" alt="tour" class="tourimg border_gray">
+					<p class="black tour_title ellipsis">1913 송정역시장</p>
+					<p class="loc light_gray ellipsis">광주 광산구 송정로8번길 13</p>
+				</a>
+			</div>
+		</div>
+	</article>
+
+	<footer class="cf">
+		<hr>
+		<div class="footer_width">
+			<ul class="logo_line">
+				<li><a href="#">서비스이용약관</a></li>
+				<li><a href="#" class="green">개인정보취급방침</a></li>
+				<li><a href="#">영상 정보기기 운영·관리방침</a></li>
+				<li class="logo_img"><a href="#"><img src="img/source05.png" alt=""></a></li>
+				<li><a href="#"><img src="img/source06.png" alt=""></a></li>
+				<li><a href="#"><img src="img/source07.png" alt=""></a></li>
+				<li><a href="#"><img src="img/source08.png" alt=""></a></li>
+			</ul>
+		</div>
+		<hr>
+		<div class="footer_width">
+			<img class="home_logo" src="img/home_logo.png"></img>
+			<div class="address">
+				<p class="deep_gray">광주광역시 남구 2순환로 1508(송하동) 광주제2순환도로 송암영업소</p>
+				<ul class="deep_gray">
+					<li>E-mail : www.kjrr.co.kr</li>
+					<li><img src="img/bottom_line.png" alt=""></li>
+					<li>Tel : 062-220-8830</li>
+					<li><img src="img/bottom_line.png" alt=""></li>
+					<li>Fax : 062-234-6353</li>
+				</ul>
+			</div>
+			<div class="linkweb">
+				<div class="footer_select">
+					<a class="click_openlink">관련사이트 바로가기</a>
+					<ul class="hide_openlink">
+						<li><a href="http://www.molit.go.kr/portal.do" class="deep_gray" target="_blank">국토해양부</a></li>
+						<li><a href="http://irocm.molit.go.kr/intro.do#mltm" class="deep_gray"
+								target="_blank">인산지방국토관리청</a></li>
+						<li><a href="https://www.gwangju.go.kr/" class="deep_gray" target="_blank">광주광역시청</a></li>
+						<li><a href="http://www.donggu.kr/index.es?sid=a1" class="deep_gray"
+								target="_blank">광주광역시동구청</a></li>
+						<li><a href="http://www.seogu.gwangju.kr/" class="deep_gray" target="_blank">광주광역시서구청</a></li>
+						<li><a href="http://www.namgu.gwangju.kr/" class="deep_gray" target="_blank">광구광역시남구청</a></li>
+						<li><a href="http://www.bukgu.gwangju.kr/index.es?sid=a1" class="deep_gray"
+								target="_blank">광구광역시북구청</a></li>
+						<li><a href="http://www.gwangsan.go.kr/" class="deep_gray" target="_blank">광주광역시광산구청</a></li>
+						<li><a href="https://www.gjpolice.go.kr/" class="deep_gray" target="_blank">광주지방경찰청</a></li>
+						<li><a href="http://www.ex.co.kr/" class="deep_gray" target="_blank">한국도로공사</a></li>
+						<li><a href="https://www.cneway.co.kr/main.do?s=cneway" class="deep_gray"
+								target="_blank">천안논산고속도로</a></li>
+						<li><a href="https://seoulbeltway.co.kr/main.do?s=seoulbeltway" class="deep_gray"
+								target="_blank">서울고속도로</a></li>
+						<li><a href="http://www.hiway21.com/home/homeIndex.do" class="deep_gray"
+								target="_blank">인천국제공항고속도로</a></li>
+						<li><a href="https://www.dbeway.co.kr/kor/Main.do" class="deep_gray"
+								target="_blank">신대구부산고속도로</a></li>
+						<li><a href="https://www.samsungsds.com/global/ko/index.html" class="deep_gray"
+								target="_blank">(주)삼성SDS</a></li>
+						<li><a href="http://www.sdsystem.com/" class="deep_gray" target="_blank">(주)에스디시스템</a></li>
+					</ul>
+				</div>
+
+				<img class="bottom_logo" src="img/bottom_logo1.png">
+				<img class="bottom_logo" src="img/bottom_logo2.png">
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>

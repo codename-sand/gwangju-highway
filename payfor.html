@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title>광주제2순환도로 1~3구간</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/payfor.css">
+	
+	<script type="text/javascript" src="js/jquery-3.7.1.slim.js"></script>
+	<script type="text/javascript" src="js/header.js"></script>
+	<script type="text/javascript" src="js/footer.js"></script>
+</head>
+<body>
+	<header class="cf">
+		<hr>
+		<div class="header_width cf">
+			<h1 class="home_logo">
+				<a href="index.html"></a>
+			</h1>
+			<ul class="main_header cf">
+				<li>
+					<a href="#">도로이용정보</a>
+					<ul class="area cf">
+						<li><a href="route.html">노선도</a></li>
+						<li><a href="toll.html">통행료</a></li>
+						<li><a href="limit.html">제한 차량 안내</a></li>
+						<li><a href="hipass.html">하이패스 안내</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">미납통행료</a>
+					<ul class="area cf">
+						<li><a href="search.html">미납요금조회</a></li>
+						<li><a href="payfor.html">납부방법안내</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">고객광장</a>
+					<ul class="area">
+						<li><a href="notice.html">공지사항</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="qa.html">Q＆A</a></li>
+						<li><a href="tax.html">세금계산서 안내</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">홍보자료</a>
+					<ul class="area">
+						<li><a href="public.html">사회 공헌 활동</a></li>
+						<li><a href="news.html">보도자료</a></li>
+						<li><a href="photo.html">포토 갤러리</a></li>
+						<li><a href="tour.html">주변 관광지</a></li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="#">회사소개</a>
+					<ul class="area">
+						<li><a href="intro.html">인사말</a></li>
+						<li><a href="business.html">사업개요</a></li>
+						<li><a href="chart.html">조직도</a></li>
+						<li><a href="map.html">찾아오시는 길</a></li>
+					</ul>
+				</li>
+			</ul>
+			
+			<ul class="account">
+				<li class="login_btn"><a href="login.html">로그인</a></li>
+				<li><a href="agree.html">회원가입</a></li>
+				<li><a href="find.html">ID / PW찾기</a></li>
+			</ul>
+		</div>
+	</header>
+	
+	<div class="header_banner">
+		<img src="img/pay_icon.png" alt="icon" class="titleicon">
+		<p class="sub_title_text">미납통행료</p>
+		<h4 class="sub_text">미납조회·납부안내</h4>
+	</div>
+	
+	<div class="lnb mg cf">
+		<ul class="cf">
+			<li class="img_li"><img src="img/lnb_home.png" alt="lnb_arrow"></li>
+			<li><a href="index.html">홈</a></li>
+			<li class="img_li"><img src="img/lnb_arrow.png" alt="lnb_arrow"></li>
+			<li><a href="">미납통행료</a></li>
+			<li class="img_li"><img src="img/lnb_arrow.png" alt="lnb_arrow"></li>
+			<li class="point"><a href="payfor.html">납부방법안내</a></li>
+		</ul>
+	</div>
+	
+	<h1 class="category_title">납부방법안내</h1>
+	<p class="category_ment">미납요금 납부 방법은 금융기관납부 / 영업소 사무실 방문 납부 총 2가지가 있습니다!</p>
+	
+	
+	<section class="mg">
+		<div class="content cf">
+			<h5 class="content_title">미납통행료 전화 문의</h5>
+			<div class="cont">
+				<img src="img/payway_thumb01.png" alt="thumb">
+				<p class="purple_title white">직접 계좌이체<p>
+				<p class="subtext black">금융기관을 방문하여 계좌이체</p>
+			</div>
+			<div class="cont">
+				<img src="img/payway_thumb02.png" alt="thumb">
+				<p class="purple_title white">인터넷 납부 인터넷 뱅킹</p>
+				<p class="subtext black">안내문 앞면 ‘납부고지서’의 전용 입금계좌로 송금</p>
+			</div>
+			<div class="cont">
+				<img src="img/payway_thumb03.png" alt="thumb">
+				<p class="purple_title white">전화납부 텔레뱅킹</p>
+				<p class="subtext black">안내문 앞면 ‘납부고지서’의 전용 입금계좌로 송금</p>
+			</div>
+		</div>
+		
+		<div class="content2 cf">
+			<h5 class="content_title">영업소/사무실 방문납부</h5>
+			<div class="cont cf">
+				<img src="img/payway_thumb05.png" alt="thumb">
+				<p class="purple_title white">영업소 방문 납부</p>
+				<p class="subtext black">광주제2순환도로 소태·소암 영업소를 방문하여 <br>요금소 현장에서는 <b>현금으로만</b> 납부가 가능합니다.</p>
+			</div>
+			<div class="cont cf">
+				<img src="img/payway_thumb04.png" alt="thumb">
+				<p class="purple_title white">사무실 방문 납부</p>
+				<p class="subtext black">주제2순환도로 소태·소암 영업소 사무실에서는 <br><b>현금 / 선·후불 전자카드 / 선·후불 교통카드로 납부</b>가 가능합니다.</p>
+				<p class="notice">
+				※선불카드사 : 하이플러스 / 한국도로공사 / 티머니 / 한페이시스 / 캐시피(EB) / 레일플러스 / 유페이먼트 <br>
+				※후불카드사(신용) : 국민 / 비씨 / 현대 /삼성 / 신한 / 수협 / 롯데 / 외환-하나 / 농협 / 광주 / 전북 / 씨티
+			</p>
+			</div>
+		</div>
+		
+		<div class="content3 cf">
+			<h5 class="content_title">당일 미납 통행료 납부 안내</h5>
+			<h5 class="deep_gray">차로(요금소)에서는 <span class="red">당일 발생한 미납요금 확인은 불가</span>합니다. <br>수납원에게 미리 말씀해 주시면 확인 및 납부가 가능하오니 협조 부탁드립니다. 이용에 불편을 드려 대단히 죄송합니다.</h5>
+			<div class="border_gray">
+				<p class="tolltext"><b>[당일 통행료]</b><br>
+					① 요금소 및 사무실 : 현금 / 선·후불 전자카드 / 선·후불 교통카드<br>
+					② 하이패스 차로 : 선·후불 전자카드
+				</p>
+			</div>
+			<div class="border_gray second_cont">
+				<p class="tolltext"><b>[미납 통행료]</b><br>
+					① 요금소 : 현금<br>
+					② 사무실 : 현금 / 선·후불 전자카드 / 선·후불 교통카드
+				</p>
+			</div>
+		</div>
+		
+		<div class="content4">
+			<h5 class="content_title">하이패스 카드 지불내역 확인 방법</h5>
+			<p class="purple_title white">나의 지불내역 확인하기</p>
+			<div class="border-purple">
+				<div class="step">
+					<a href="https://www.excard.co.kr" target="_blank">
+						<img src="img/step_icon01.png" alt="icon_thumb">
+						<p class="text">https://www.excard.co.kr로 접속</p>
+					</a>
+				</div>
+				<div class="step">
+						<img src="img/step_icon02.png" alt="icon_thumb">
+						<p class="text">회원가입 + 공인인증서 등록 및 로그인</p>
+				</div>
+				<div class="step">
+						<img src="img/step_icon03.png" alt="icon_thumb">
+						<p class="text">나의 선·후불 하이패스 전자카드를<br>카드 등록 후 조회가능</p>
+				</div>
+			</div>
+			<p class="red">※단, 신용카드 및 교통카드는 각 카드사에 문의</p>
+		</div>
+	</section>
+
+	<footer class="cf">
+		<hr>
+		<div class="footer_width">
+			<ul class="logo_line">
+				<li><a href="#">서비스이용약관</a></li>
+				<li><a href="#" class="green">개인정보취급방침</a></li>
+				<li><a href="#">영상 정보기기 운영·관리방침</a></li>
+				<li class="logo_img"><a href="#"><img src="img/source05.png" alt=""></a></li>
+				<li><a href="#"><img src="img/source06.png" alt=""></a></li>
+				<li><a href="#"><img src="img/source07.png" alt=""></a></li>
+				<li><a href="#"><img src="img/source08.png" alt=""></a></li>
+			</ul>
+		</div>
+		<hr>
+		<div class="footer_width">
+			<img class="home_logo" src="img/home_logo.png"></img>
+			<div class="address">
+				<p class="deep_gray">광주광역시 남구 2순환로 1508(송하동) 광주제2순환도로 송암영업소</p>
+				<ul class="deep_gray">
+					<li>E-mail : www.kjrr.co.kr</li>
+					<li><img src="img/bottom_line.png" alt=""></li>
+					<li>Tel : 062-220-8830</li>
+					<li><img src="img/bottom_line.png" alt=""></li>
+					<li>Fax : 062-234-6353</li>
+				</ul>
+			</div>
+			<div class="linkweb">
+				<div class="footer_select">
+					<a class="click_openlink">관련사이트 바로가기</a>
+					<ul class="hide_openlink">
+						<li><a href="http://www.molit.go.kr/portal.do" class="deep_gray" target="_blank">국토해양부</a></li>
+						<li><a href="http://irocm.molit.go.kr/intro.do#mltm" class="deep_gray" target="_blank">인산지방국토관리청</a></li>
+						<li><a href="https://www.gwangju.go.kr/" class="deep_gray" target="_blank">광주광역시청</a></li>
+						<li><a href="http://www.donggu.kr/index.es?sid=a1" class="deep_gray" target="_blank">광주광역시동구청</a></li>
+						<li><a href="http://www.seogu.gwangju.kr/" class="deep_gray" target="_blank">광주광역시서구청</a></li>
+						<li><a href="http://www.namgu.gwangju.kr/" class="deep_gray" target="_blank">광구광역시남구청</a></li>
+						<li><a href="http://www.bukgu.gwangju.kr/index.es?sid=a1" class="deep_gray" target="_blank">광구광역시북구청</a></li>
+						<li><a href="http://www.gwangsan.go.kr/" class="deep_gray" target="_blank">광주광역시광산구청</a></li>
+						<li><a href="https://www.gjpolice.go.kr/" class="deep_gray" target="_blank">광주지방경찰청</a></li>
+						<li><a href="http://www.ex.co.kr/" class="deep_gray" target="_blank">한국도로공사</a></li>
+						<li><a href="https://www.cneway.co.kr/main.do?s=cneway" class="deep_gray" target="_blank">천안논산고속도로</a></li>
+						<li><a href="https://seoulbeltway.co.kr/main.do?s=seoulbeltway" class="deep_gray" target="_blank">서울고속도로</a></li>
+						<li><a href="http://www.hiway21.com/home/homeIndex.do" class="deep_gray" target="_blank">인천국제공항고속도로</a></li>
+						<li><a href="https://www.dbeway.co.kr/kor/Main.do" class="deep_gray" target="_blank">신대구부산고속도로</a></li>
+						<li><a href="https://www.samsungsds.com/global/ko/index.html" class="deep_gray" target="_blank">(주)삼성SDS</a></li>
+						<li><a href="http://www.sdsystem.com/" class="deep_gray" target="_blank">(주)에스디시스템</a></li>
+					</ul>
+				</div>
+				
+				<img class="bottom_logo" src="img/bottom_logo1.png">
+				<img class="bottom_logo" src="img/bottom_logo2.png">			
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

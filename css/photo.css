@@ -1,0 +1,7 @@
+@charset "utf-8";
+.header_banner{background:url(../img/public_bg.png) center center}
+article img.photo{width:1000px;height:500px;box-sizing:border-box;margin-bottom:20px;background:no-repeat center center;background-size:contain}
+article .thumb_group{width:1000px;height:190px;box-sizing:border-box;border-radius:4px;padding-left:20px}
+article .thumb_group p.text{margin:10px 0;font-size:15px}
+article .thumb_group a.img_btn{cursor:pointer}
+article .thumb_group a.img_btn img{width:184px;height:120px;box-sizing:border-box}

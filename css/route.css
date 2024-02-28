@@ -1,0 +1,18 @@
+@charset "utf-8";
+.header_banner{background:url(../img/roadinfo_bg.png) center center}
+.section{box-sizing:border-box}
+.section .map{width:60%;float:left;border-right:1px solid #e0e0e0;box-sizing:border-box;overflow:hidden}
+.section .map img{display:block}
+.section table{width:40%;float:left}
+.section table tr{height:81px;border-top:1px solid #e0e0e0}
+.section table tr:first-child{border-top:0;height:80px}
+.section table tr td.thumb{width:120px}
+.section table tr td.thumb img{display:block;width:90px;height:60px;margin:0 auto}
+.section .text .name{font-weight:500;color:#363636}
+.section .text .address{font-size:14px;color:#6b6b6b}
+.section table tr td.zoom{width:120px;vertical-align:bottom}
+.section table tr td.zoom a{display:block;width:90px;height:30px;line-height:30px;margin:0 auto 15px;background:url(../img/zoom_bg.png) no-repeat center center;font-size:14px;color:#6b6b6b;padding-left:30px;box-sizing:border-box}
+.cont div.contents{background-image:url(../img/newmap.png)}
+.cont div.contents:hover{background-image:url(../img/newmap_hover.png)}
+.cont div.contents img.bigmap{width:1000px;height:800px}
+.cont map area{cursor:pointer}

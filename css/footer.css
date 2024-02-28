@@ -1,0 +1,21 @@
+@charset "utf-8";
+@import "https://fonts.googleapis.com/earlyaccess/notosanskr.css";
+footer{clear:both!important;display:block;margin-top:140px!important;padding-bottom:15px;height:200px;box-sizing:border-box}
+footer .footer_width{width:1200px;margin:0 auto}
+footer .footer_width .logo_line{height:50px;line-height:50px;box-sizing:border-box;float:left}
+footer .footer_width .logo_line li{float:left}
+footer .footer_width .logo_line li.logo_img{margin-left:114px}
+footer .footer_width .logo_line li a{font-size:14px;color:#6b6b6b;margin-right:50px}
+footer .footer_width .logo_line li a img{margin-right:-50px!important;margin-top:10px}
+footer hr{clear:both;border-width:1px 0 0!important;border:1px solid #e0e0e0}
+footer .footer_width img.home_logo{margin-top:40px;float:left}
+footer .footer_width .address{margin-top:55px;float:left;font-size:14px;font-weight:300;margin-left:20px}
+footer .footer_width .address ul li{float:left}
+footer .footer_width .address ul li img{margin-top:4px}
+footer .footer_width .linkweb{float:right}
+footer .footer_width .linkweb .bottom_logo{margin-top:45px}
+footer .footer_width .linkweb .footer_select{position:relative;float:left;width:220px;height:40px;margin:55px 25px 0 0}
+footer .footer_width .linkweb .footer_select .click_openlink{float:left;width:220px;height:40px;font-size:14px;font-weight:300;line-height:38px;padding-left:16px;background:url(../img/select_bg.png) no-repeat right center;border:1px solid #e0e0e0;box-sizing:border-box;cursor:pointer}
+footer .footer_width .linkweb .footer_select .hide_openlink{position:absolute;float:left;width:220px;height:180px;bottom:39px;box-sizing:border-box;overflow-y:scroll!important;overflow-x:hidden;border:1px solid #e0e0e0;background-color:#fff}
+footer .footer_width .linkweb .footer_select .hide_openlink li a{width:220px;height:40px;font-size:14px;font-weight:400;padding-left:16px;line-height:32px}
+footer .footer_width .linkweb .footer_select .hide_openlink li a:hover{color:#353b91!important;font-weight:400}

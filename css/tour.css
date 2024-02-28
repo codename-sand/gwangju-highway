@@ -1,0 +1,15 @@
+@charset "utf-8";
+.header_banner{background:url(../img/public_bg.png) center center}
+article .content{border-top:1px solid #e0e0e0;padding:40px 0 30px;box-sizing:border-box}
+article .content:last-child{border-bottom:1px solid #e0e0e0}
+article .content .imgcontents{width:350px;box-sizing:border-box;float:left;margin-right:30px}
+article .content .imgcontents img{width:350px;height:240px;box-sizing:border-box}
+article .content .homelink_btn{width:90px;float:left;height:40px;border-radius:4px;background:#fafafa url(../img/homelink.png) no-repeat;font-size:15px;color:#6b6b6b;text-align:center;line-height:38px;padding-left:13px;margin:15px 36% 0}
+article .content .right_content{width:620px;float:right}
+article .content h4.title{margin-bottom:13px;display:inline-block;line-height:20px}
+article .content p.text{font-weight:300;margin-bottom:14px;line-height:20px}
+article .content ul.list li{font-size:15px;margin-bottom:3px}
+article .tab_button{text-align:center;margin-bottom:50px;cursor:pointer}
+article .tab_button .btn{display:inline-block;width:160px;height:48px;line-height:46px;font-size:16px;box-sizing:border-box;border-radius:24px;color:#8e8e8e;margin-left:20px}
+article .tab_button .btn:first-child{margin:0}
+article .tab_button div.active,article .tab_button .btn:hover{background-color:#353b91;border-color:#353b91!important;color:#fff;font-weight:500}

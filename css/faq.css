@@ -1,0 +1,19 @@
+@charset "utf-8";
+.header_banner{background:url(../img/userspace_bg.png) center center}
+.category_ment{margin-bottom:50px}
+.search{box-sizing:border-box;height:100px;margin-bottom:60px}
+.search .search_wrap{width:465px;height:40px;margin:29px auto 0}
+.search select{width:120px;height:40px;float:left;box-sizing:border-box;color:#6b6b6b;font-size:15px;font-family:inherit;padding-left:10px;margin-right:5px;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;background:#fff url(../img/select_btn.png) no-repeat right center}
+select::-ms-expand{display:none}
+.search input[type="text"]{width:280px;height:40px;float:left;box-sizing:border-box;padding-left:10px;font-family:inherit;font-size:15px}
+.search input[type="submit"]{width:60px;height:40px;float:left;background:#363636;color:#fff;font-family:inherit;font-size:15px;cursor:pointer}
+div.accordion{clear:both}
+div.accordion div.ac_title{border-top:2px solid #353b91;border-bottom:1px solid #353b91;height:55px;box-sizing:border-box}
+div.accordion div.ac_title p.num{width:80px;height:55px;float:left;text-align:center;font-size:15px;font-weight:500;line-height:53px;box-sizing:border-box}
+div.accordion div.ac_title p.category{width:920px;height:55px;float:left;text-align:center;font-size:15px;font-weight:500;line-height:53px;box-sizing:border-box}
+div.accordion .ac_header{box-sizing:border-box;height:55px;float:left;border-bottom:1px solid #e0e0e0}
+div.accordion .ac_header p.num{float:left;width:80px;height:55px;line-height:53px;text-align:center;box-sizing:border-box}
+div.accordion .ac_header p.text{background-image:url(../img/ac_bg.png);width:920px;float:left;font-size:16px;height:55px;line-height:53px;box-sizing:border-box;cursor:pointer}
+div.accordion .ac_content{float:left;padding-top:20px;padding-bottom:20px;width:1000px;border-bottom:1px solid #e0e0e0;box-sizing:border-box}
+div.accordion .ac_content p.purple{width:80px;height:auto;float:left;text-align:center;font-size:16px;box-sizing:border-box}
+div.accordion .ac_content p.answer{float:left;width:920px;font-size:16px;font-weight:300;line-height:29px;box-sizing:border-box}

@@ -1,0 +1,11 @@
+@charset "utf-8";
+.header_banner{background:url(../img/roadinfo_bg.png) center center}
+.top_area{background:url(../images/sub_top1.png) no-repeat center center}
+.hipass .content_title{border-bottom:2px solid #353b91}
+.hipass p.subtxt{margin-top:20px;line-height:25px}
+.hipass div{margin-bottom:80px}
+.content2 img{width:940px;margin-top:20px;box-sizing:border-box}
+.content3 article{float:left;width:500px;box-sizing:border-box}
+.content3 article p.title{width:200px;text-align:center;line-height:35px;font-size:16px;background-color:#7278ca;border-radius:100px;margin-bottom:15px}
+.content3 article img{width:471px;box-sizing:border-box}
+.content1 .titletxt{margin:20px 0 5px}
